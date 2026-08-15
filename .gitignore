@@ -1,0 +1,28 @@
+# Authorized browser/session data — never publish
+browser-profile/
+.env
+*.env
+**/*cookie*
+**/*credential*
+**/*secret*
+/root/.vnc/
+
+# Runtime and local logs
+logs/
+*.log
+__pycache__/
+.venv/
+.vscode/
+
+# Raw captures may contain runtime URLs or session-bound HTML
+raw-data/captures/
+raw-data/normalized/browser-snapshots/
+raw-data/normalized/views/
+
+# Local/private operational files
+scripts/*.local.*
+notes/private/
+reports/private/
+
+# Keep only explicitly curated dashboard artifacts under dashboard/
+# qsid/session identifiers must be redacted before commit.
