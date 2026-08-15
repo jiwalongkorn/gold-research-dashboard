@@ -1,0 +1,28 @@
+{
+  "schema_version": "gold.research-hypothesis.v1",
+  "status": "research_only",
+  "approval_required": true,
+  "generated_at_utc": "2026-08-15T16:46:53.116537+00:00",
+  "hypotheses": [
+    {
+      "id": "oi-vol-change-descriptive",
+      "name": "OI/volatility change replay",
+      "rules": [
+        "Compare strike-joined OI delta with ATM/strike volatility delta",
+        "No automatic support/resistance inference",
+        "No order execution"
+      ],
+      "required_inputs": [
+        "strike-compare.json",
+        "historical-summary.json"
+      ],
+      "evaluation": [
+        "chronological replay",
+        "cost assumptions documented",
+        "out-of-sample separation",
+        "trade count and expectancy in R"
+      ],
+      "promotion_gate": "human approval required; paper/demo only after validation"
+    }
+  ]
+}
