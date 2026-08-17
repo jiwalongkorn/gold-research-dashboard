@@ -1,24 +1,24 @@
 {
   "schema_version": "vol2vol.strike-compare.v1",
-  "generated_at_utc": "2026-08-17T10:11:38.191266+00:00",
+  "generated_at_utc": "2026-08-17T10:16:41.138481+00:00",
   "research_only": true,
   "series": [
     {
       "series": "G3MQ6",
-      "latest_snapshot": "20260817T101116Z",
-      "previous_snapshot": "20260817T100610Z",
+      "latest_snapshot": "20260817T101620Z",
+      "previous_snapshot": "20260817T101116Z",
       "rows": [
         {
           "strike": 4320.0,
-          "status": "removed",
-          "latest": null,
-          "previous": {
+          "status": "added",
+          "latest": {
             "strike": 4320.0,
             "call_value": 0,
             "put_value": 19,
             "vol_settle": 0.15574070868623835,
             "strike_id": 7918326
           },
+          "previous": null,
           "delta": {
             "call_value": null,
             "put_value": null,
@@ -926,8 +926,8 @@
     },
     {
       "series": "G3TQ6",
-      "latest_snapshot": "20260817T101116Z",
-      "previous_snapshot": "20260817T100610Z",
+      "latest_snapshot": "20260817T101620Z",
+      "previous_snapshot": "20260817T101116Z",
       "rows": [
         {
           "strike": 4245.0,
@@ -2564,15 +2564,15 @@
         },
         {
           "strike": 4600.0,
-          "status": "added",
-          "latest": {
+          "status": "removed",
+          "latest": null,
+          "previous": {
             "strike": 4600.0,
             "call_value": 20,
             "put_value": 0,
             "vol_settle": 0.20860188397472257,
             "strike_id": 7829645
           },
-          "previous": null,
           "delta": {
             "call_value": null,
             "put_value": null,
@@ -2583,26 +2583,9 @@
     },
     {
       "series": "G3WQ6",
-      "latest_snapshot": "20260817T101116Z",
-      "previous_snapshot": "20260817T100610Z",
+      "latest_snapshot": "20260817T101620Z",
+      "previous_snapshot": "20260817T101116Z",
       "rows": [
-        {
-          "strike": 4190.0,
-          "status": "removed",
-          "latest": null,
-          "previous": {
-            "strike": 4190.0,
-            "call_value": 0,
-            "put_value": 1,
-            "vol_settle": 0.22872671747495588,
-            "strike_id": 7925754
-          },
-          "delta": {
-            "call_value": null,
-            "put_value": null,
-            "vol_settle": null
-          }
-        },
         {
           "strike": 4195.0,
           "status": "unchanged",
@@ -4746,26 +4729,9 @@
     },
     {
       "series": "G3RQ6",
-      "latest_snapshot": "20260817T101116Z",
-      "previous_snapshot": "20260817T100610Z",
+      "latest_snapshot": "20260817T101620Z",
+      "previous_snapshot": "20260817T101116Z",
       "rows": [
-        {
-          "strike": 4145.0,
-          "status": "removed",
-          "latest": null,
-          "previous": {
-            "strike": 4145.0,
-            "call_value": 0,
-            "put_value": 0,
-            "vol_settle": 0.24625233773144828,
-            "strike_id": 7856957
-          },
-          "delta": {
-            "call_value": null,
-            "put_value": null,
-            "vol_settle": null
-          }
-        },
         {
           "strike": 4150.0,
           "status": "unchanged",
@@ -7346,8 +7312,8 @@
     },
     {
       "series": "OG3Q6",
-      "latest_snapshot": "20260817T101116Z",
-      "previous_snapshot": "20260817T100610Z",
+      "latest_snapshot": "20260817T101620Z",
+      "previous_snapshot": "20260817T101116Z",
       "rows": [
         {
           "strike": 4125.0,
@@ -7926,7 +7892,7 @@
         },
         {
           "strike": 4750.0,
-          "status": "added",
+          "status": "unchanged",
           "latest": {
             "strike": 4750.0,
             "call_value": 31,
@@ -7934,10 +7900,16 @@
             "vol_settle": null,
             "strike_id": 7866415
           },
-          "previous": null,
+          "previous": {
+            "strike": 4750.0,
+            "call_value": 31,
+            "put_value": 0,
+            "vol_settle": null,
+            "strike_id": 7866415
+          },
           "delta": {
-            "call_value": null,
-            "put_value": null,
+            "call_value": 0.0,
+            "put_value": 0.0,
             "vol_settle": null
           }
         }
