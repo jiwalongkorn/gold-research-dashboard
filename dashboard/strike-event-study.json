@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-17T17:02:09.646998+00:00",
+  "generated_at_utc": "2026-08-17T17:07:05.712716+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 106,
+    "snapshots": 107,
     "first": "20260817T054625Z",
-    "last": "20260817T170144Z"
+    "last": "20260817T170645Z"
   },
   "summary": [
     {
@@ -30,9 +30,9 @@
       "h15_n": 91,
       "h15_mean_future_delta": 2.7670329670327494,
       "h15_positive_fraction": 0.5934065934065934,
-      "h30_n": 74,
-      "h30_mean_future_delta": -1.5472972972973833,
-      "h30_positive_fraction": 0.24324324324324326,
+      "h30_n": 75,
+      "h30_mean_future_delta": -1.081333333333411,
+      "h30_positive_fraction": 0.25333333333333335,
       "h60_n": 29,
       "h60_mean_future_delta": -3.003448275862207,
       "h60_positive_fraction": 0.3448275862068966
@@ -75,9 +75,9 @@
       "h5_n": 34,
       "h5_mean_future_delta": 2.494117647058722,
       "h5_positive_fraction": 0.6764705882352942,
-      "h15_n": 25,
-      "h15_mean_future_delta": 4.047999999999665,
-      "h15_positive_fraction": 0.72,
+      "h15_n": 26,
+      "h15_mean_future_delta": 5.4153846153843075,
+      "h15_positive_fraction": 0.7307692307692307,
       "h30_n": 21,
       "h30_mean_future_delta": -1.6238095238095411,
       "h30_positive_fraction": 0.19047619047619047,
@@ -2437,7 +2437,7 @@
       "future_outcome": {
         "5": -5.0,
         "15": -6.199999999999818,
-        "30": null,
+        "30": 33.400000000000546,
         "60": null
       }
     },
@@ -2954,7 +2954,7 @@
       "vol_delta": null,
       "future_outcome": {
         "5": 28.199999999999818,
-        "15": null,
+        "15": 39.600000000000364,
         "30": null,
         "60": null
       }
