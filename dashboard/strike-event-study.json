@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-18T08:04:17.105432+00:00",
+  "generated_at_utc": "2026-08-18T08:09:29.232141+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 283,
+    "snapshots": 284,
     "first": "20260817T054625Z",
-    "last": "20260818T080353Z"
+    "last": "20260818T080905Z"
   },
   "summary": [
     {
@@ -43,9 +43,9 @@
       "h5_n": 173,
       "h5_mean_future_delta": 1.0468208092487306,
       "h5_positive_fraction": 0.35260115606936415,
-      "h15_n": 172,
-      "h15_mean_future_delta": -0.6325581395347843,
-      "h15_positive_fraction": 0.08139534883720931,
+      "h15_n": 173,
+      "h15_mean_future_delta": -0.631791907514352,
+      "h15_positive_fraction": 0.08092485549132948,
       "h30_n": 170,
       "h30_mean_future_delta": 1.6329411764706332,
       "h30_positive_fraction": 0.3235294117647059,
@@ -55,7 +55,7 @@
     },
     {
       "series": "G3TQ6",
-      "events": 268,
+      "events": 269,
       "h5_n": 265,
       "h5_mean_future_delta": 1.145660377358571,
       "h5_positive_fraction": 0.49433962264150944,
@@ -65,13 +65,13 @@
       "h30_n": 248,
       "h30_mean_future_delta": 1.4576612903225512,
       "h30_positive_fraction": 0.4637096774193548,
-      "h60_n": 176,
-      "h60_mean_future_delta": -3.2528409090908315,
-      "h60_positive_fraction": 0.42613636363636365
+      "h60_n": 177,
+      "h60_mean_future_delta": -3.2457627118643297,
+      "h60_positive_fraction": 0.423728813559322
     },
     {
       "series": "G3WQ6",
-      "events": 214,
+      "events": 215,
       "h5_n": 214,
       "h5_mean_future_delta": 1.3635514018693256,
       "h5_positive_fraction": 0.48598130841121495,
@@ -87,7 +87,7 @@
     },
     {
       "series": "G4MQ6",
-      "events": 74,
+      "events": 75,
       "h5_n": 73,
       "h5_mean_future_delta": 1.3383561643837958,
       "h5_positive_fraction": 0.4246575342465753,
@@ -113,9 +113,9 @@
       "h30_n": 142,
       "h30_mean_future_delta": 3.2922535211268182,
       "h30_positive_fraction": 0.6408450704225352,
-      "h60_n": 63,
-      "h60_mean_future_delta": -3.9507936507934427,
-      "h60_positive_fraction": 0.4126984126984127
+      "h60_n": 64,
+      "h60_mean_future_delta": -3.929687499999801,
+      "h60_positive_fraction": 0.40625
     }
   ],
   "events": [
@@ -10280,7 +10280,7 @@
         "5": -1.8999999999996362,
         "15": -8.800000000000182,
         "30": -3.199999999999818,
-        "60": null
+        "60": -2.0
       }
     },
     {
@@ -10294,7 +10294,7 @@
         "5": -1.8999999999996362,
         "15": -8.800000000000182,
         "30": -3.199999999999818,
-        "60": null
+        "60": -2.600000000000364
       }
     },
     {
@@ -14814,7 +14814,7 @@
       "vol_delta": null,
       "future_outcome": {
         "5": 0.8999999999996362,
-        "15": null,
+        "15": -0.5,
         "30": null,
         "60": null
       }
@@ -14965,6 +14965,48 @@
       "from_snapshot": "20260818T075849Z",
       "event_snapshot": "20260818T080353Z",
       "oi_delta": 62.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G3TQ6",
+      "strike": 4315.0,
+      "from_snapshot": "20260818T080353Z",
+      "event_snapshot": "20260818T080905Z",
+      "oi_delta": 10.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G3WQ6",
+      "strike": 4235.0,
+      "from_snapshot": "20260818T080353Z",
+      "event_snapshot": "20260818T080905Z",
+      "oi_delta": 21.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 5000.0,
+      "from_snapshot": "20260818T080353Z",
+      "event_snapshot": "20260818T080905Z",
+      "oi_delta": -81.0,
       "vol_delta": null,
       "future_outcome": {
         "5": null,
