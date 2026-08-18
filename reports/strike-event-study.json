@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-17T23:55:40.036390+00:00",
+  "generated_at_utc": "2026-08-18T00:00:43.038682+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 187,
+    "snapshots": 188,
     "first": "20260817T054625Z",
-    "last": "20260817T235516Z"
+    "last": "20260818T000022Z"
   },
   "summary": [
     {
@@ -40,9 +40,9 @@
     {
       "series": "G3RQ6",
       "events": 123,
-      "h5_n": 24,
-      "h5_mean_future_delta": 2.3041666666666742,
-      "h5_positive_fraction": 0.5833333333333334,
+      "h5_n": 123,
+      "h5_mean_future_delta": 0.44959349593496084,
+      "h5_positive_fraction": 0.11382113821138211,
       "h15_n": 24,
       "h15_mean_future_delta": 0.4833333333333864,
       "h15_positive_fraction": 0.5,
@@ -56,25 +56,25 @@
     {
       "series": "G3TQ6",
       "events": 158,
-      "h5_n": 100,
-      "h5_mean_future_delta": 2.378999999999887,
-      "h5_positive_fraction": 0.56,
+      "h5_n": 157,
+      "h5_mean_future_delta": 1.51528662420375,
+      "h5_positive_fraction": 0.35668789808917195,
       "h15_n": 100,
       "h15_mean_future_delta": 5.128999999999815,
       "h15_positive_fraction": 0.59,
       "h30_n": 98,
       "h30_mean_future_delta": 2.994897959183525,
       "h30_positive_fraction": 0.5204081632653061,
-      "h60_n": 80,
-      "h60_mean_future_delta": 11.554999999999813,
-      "h60_positive_fraction": 0.7
+      "h60_n": 81,
+      "h60_mean_future_delta": 11.571604938271417,
+      "h60_positive_fraction": 0.7037037037037037
     },
     {
       "series": "G3WQ6",
       "events": 129,
-      "h5_n": 50,
-      "h5_mean_future_delta": 1.8499999999998726,
-      "h5_positive_fraction": 0.62,
+      "h5_n": 129,
+      "h5_mean_future_delta": 0.7170542635658421,
+      "h5_positive_fraction": 0.24031007751937986,
       "h15_n": 50,
       "h15_mean_future_delta": 3.1579999999998107,
       "h15_positive_fraction": 0.62,
@@ -86,11 +86,27 @@
       "h60_positive_fraction": 0.6363636363636364
     },
     {
+      "series": "G4MQ6",
+      "events": 38,
+      "h5_n": 0,
+      "h5_mean_future_delta": null,
+      "h5_positive_fraction": null,
+      "h15_n": 0,
+      "h15_mean_future_delta": null,
+      "h15_positive_fraction": null,
+      "h30_n": 0,
+      "h30_mean_future_delta": null,
+      "h30_positive_fraction": null,
+      "h60_n": 0,
+      "h60_mean_future_delta": null,
+      "h60_positive_fraction": null
+    },
+    {
       "series": "OG3Q6",
       "events": 59,
-      "h5_n": 34,
-      "h5_mean_future_delta": 0.5264705882352834,
-      "h5_positive_fraction": 0.5294117647058824,
+      "h5_n": 59,
+      "h5_mean_future_delta": 0.3033898305084684,
+      "h5_positive_fraction": 0.3050847457627119,
       "h15_n": 33,
       "h15_mean_future_delta": 2.2030303030302973,
       "h15_positive_fraction": 0.696969696969697,
@@ -4622,7 +4638,7 @@
         "5": -2.899999999999636,
         "15": 15.800000000000182,
         "30": 12.899999999999636,
-        "60": null
+        "60": 12.899999999999636
       }
     },
     {
@@ -5193,7 +5209,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5207,7 +5223,7 @@
       "oi_delta": 86.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5221,7 +5237,7 @@
       "oi_delta": 7.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5235,7 +5251,7 @@
       "oi_delta": 5.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5249,7 +5265,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.14128634078740987,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5263,7 +5279,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.13615378460882965,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5277,7 +5293,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.13128540053511983,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5291,7 +5307,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.12667799675065794,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5305,7 +5321,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.12232823964268391,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5319,7 +5335,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.11823265380992609,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5333,7 +5349,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.11438762206063302,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5347,7 +5363,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.11078938540138239,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5361,7 +5377,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.10743404305161164,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5375,7 +5391,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.10431755243847363,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5389,7 +5405,7 @@
       "oi_delta": 0,
       "vol_delta": 0.10143572919702137,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5403,7 +5419,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.09878424716692535,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5417,7 +5433,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.09635863839563541,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5431,7 +5447,7 @@
       "oi_delta": 0,
       "vol_delta": 0.09415429314116608,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5445,7 +5461,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0921664598616232,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5459,7 +5475,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.09039024522751049,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5473,7 +5489,7 @@
       "oi_delta": 0,
       "vol_delta": 0.08882061411929243,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5487,7 +5503,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08745238961806479,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5501,7 +5517,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0862802530146567,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5515,7 +5531,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08529874380757008,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5529,7 +5545,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08450225970669578,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5543,7 +5559,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0838850566231173,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5557,7 +5573,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08344124867473823,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5571,7 +5587,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08316480819404859,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5585,7 +5601,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08304956570962219,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5599,7 +5615,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08308920997177438,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5613,7 +5629,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0832772879243322,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5627,7 +5643,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08360720472287397,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5641,7 +5657,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08407222373619305,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5655,7 +5671,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08466546653286855,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5669,7 +5685,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08537991289065161,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5683,7 +5699,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08620840079262848,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5697,7 +5713,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08714362643996765,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5711,7 +5727,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08817814422506132,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5725,7 +5741,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0893043667578226,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5739,7 +5755,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.09051456485642007,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5753,7 +5769,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.09180086753855932,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5767,7 +5783,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.09315526203160829,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5781,7 +5797,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.09456959377944685,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5795,7 +5811,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.09603556641604882,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5809,7 +5825,7 @@
       "oi_delta": 0,
       "vol_delta": 0.0975447417999149,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5823,7 +5839,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.09908853998881284,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5837,7 +5853,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.10065823924053774,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5851,7 +5867,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.10224497603765315,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5865,7 +5881,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.10383974505715088,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5879,7 +5895,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.10543339918039152,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5893,7 +5909,7 @@
       "oi_delta": 0,
       "vol_delta": 0.10701664950639866,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5907,7 +5923,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.10858006533985787,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5921,7 +5937,7 @@
       "oi_delta": 0,
       "vol_delta": 0.11011407418360619,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5935,7 +5951,7 @@
       "oi_delta": 0,
       "vol_delta": 0.11160896175662316,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5949,7 +5965,7 @@
       "oi_delta": 0,
       "vol_delta": 0.11305487198106334,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5963,7 +5979,7 @@
       "oi_delta": 6.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5977,7 +5993,7 @@
       "oi_delta": 5.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -5991,7 +6007,7 @@
       "oi_delta": 0,
       "vol_delta": 0.08761142804901567,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6005,7 +6021,7 @@
       "oi_delta": 0,
       "vol_delta": 0.08541048765050618,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6019,7 +6035,7 @@
       "oi_delta": 0,
       "vol_delta": 0.0832852641476336,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6033,7 +6049,7 @@
       "oi_delta": 0,
       "vol_delta": 0.08123430222315164,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6047,7 +6063,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.07925616361862353,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6061,7 +6077,7 @@
       "oi_delta": 0,
       "vol_delta": 0.07734942713464932,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6075,7 +6091,7 @@
       "oi_delta": 0,
       "vol_delta": 0.07551268863093696,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6089,7 +6105,7 @@
       "oi_delta": 0,
       "vol_delta": 0.07374456102616023,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6103,7 +6119,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.072043674298925,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6117,7 +6133,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.07040867548511187,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6131,7 +6147,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06883822868155676,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6145,7 +6161,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.06733101504357819,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6159,7 +6175,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.06588573278418153,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6173,7 +6189,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.06450109717749797,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6187,7 +6203,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.06317584055494763,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6201,7 +6217,7 @@
       "oi_delta": 0,
       "vol_delta": 0.061908712308621716,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6215,7 +6231,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06069847888926461,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6229,7 +6245,7 @@
       "oi_delta": 0,
       "vol_delta": 0.059543923804966425,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6243,7 +6259,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05844384762539789,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6257,7 +6273,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05739706797709232,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6271,7 +6287,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05640241954822045,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6285,7 +6301,7 @@
       "oi_delta": 0,
       "vol_delta": 0.055458754082906125,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6299,7 +6315,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.054564940386626404,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6313,7 +6329,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05371986432345466,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6327,7 +6343,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05292242881571951,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6341,7 +6357,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05217155384573857,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6355,7 +6371,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05146617645408469,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6369,7 +6385,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05080525074137654,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6383,7 +6399,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05018774786674385,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6397,7 +6413,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04961265604777054,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6411,7 +6427,7 @@
       "oi_delta": 0,
       "vol_delta": 0.049078980562313745,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6425,7 +6441,7 @@
       "oi_delta": 0,
       "vol_delta": 0.048585743746343724,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6439,7 +6455,7 @@
       "oi_delta": 0,
       "vol_delta": 0.048131984995706034,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6453,7 +6469,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.047716760764160426,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6467,7 +6483,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04733914456565458,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6481,7 +6497,7 @@
       "oi_delta": 0,
       "vol_delta": 0.046998226972931434,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6495,7 +6511,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04669311561696077,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6509,7 +6525,7 @@
       "oi_delta": 0,
       "vol_delta": 0.04642293518921292,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6523,7 +6539,7 @@
       "oi_delta": 0,
       "vol_delta": 0.04618682743867453,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6537,7 +6553,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04598395117497489,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6551,7 +6567,7 @@
       "oi_delta": 0,
       "vol_delta": 0.04581348226565751,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6565,7 +6581,7 @@
       "oi_delta": 0,
       "vol_delta": 0.045674613637515904,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6579,7 +6595,7 @@
       "oi_delta": 0,
       "vol_delta": 0.04556655527707676,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6593,7 +6609,7 @@
       "oi_delta": 0,
       "vol_delta": 0.04548853422861043,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6607,7 +6623,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.045439794596632055,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6621,7 +6637,7 @@
       "oi_delta": 0,
       "vol_delta": 0.045419597544565704,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6635,7 +6651,7 @@
       "oi_delta": 0,
       "vol_delta": 0.04542722129454546,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6649,7 +6665,7 @@
       "oi_delta": 0,
       "vol_delta": 0.045461961127927,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6663,7 +6679,7 @@
       "oi_delta": 0,
       "vol_delta": 0.04552312938483283,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6677,7 +6693,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.045610055464891275,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6691,7 +6707,7 @@
       "oi_delta": 0,
       "vol_delta": 0.04572208582689541,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6705,7 +6721,7 @@
       "oi_delta": 0,
       "vol_delta": 0.0458585839876946,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6719,7 +6735,7 @@
       "oi_delta": 0,
       "vol_delta": 0.046018930524894586,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6733,7 +6749,7 @@
       "oi_delta": 0,
       "vol_delta": 0.046202523073276325,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6747,7 +6763,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04640877632846241,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6761,7 +6777,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04663712204319381,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6775,7 +6791,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.046887009031308935,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6789,7 +6805,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04715790316498669,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6803,7 +6819,7 @@
       "oi_delta": 0,
       "vol_delta": 0.047449287373837024,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6817,7 +6833,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04776066164939152,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6831,7 +6847,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.048091543039959106,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6845,7 +6861,7 @@
       "oi_delta": 0,
       "vol_delta": 0.048441465654292415,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6859,7 +6875,7 @@
       "oi_delta": 0,
       "vol_delta": 0.04880998065905828,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6873,7 +6889,7 @@
       "oi_delta": 0,
       "vol_delta": 0.04919665628111147,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6887,7 +6903,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04960107780539147,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6901,7 +6917,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05002284757659936,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6915,7 +6931,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05046158499857256,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6929,7 +6945,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05091692653323321,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6943,7 +6959,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05138852570243557,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6957,7 +6973,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.051876053087255514,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6971,7 +6987,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05237919632693888,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6985,7 +7001,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05289766012103314,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -6999,7 +7015,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05343116622674415,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7013,7 +7029,7 @@
       "oi_delta": 0,
       "vol_delta": 0.0539794534613236,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7027,7 +7043,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05454227770030684,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7041,7 +7057,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05511941187958769,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7055,7 +7071,7 @@
       "oi_delta": 0,
       "vol_delta": 0.055710645993059416,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7069,7 +7085,7 @@
       "oi_delta": 0,
       "vol_delta": 0.0563157870933253,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7083,7 +7099,7 @@
       "oi_delta": 0,
       "vol_delta": 0.0569346592935176,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7097,7 +7113,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0575671037641996,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7111,7 +7127,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05821297873640674,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7125,7 +7141,7 @@
       "oi_delta": 0,
       "vol_delta": 0.058872159499543386,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7139,7 +7155,7 @@
       "oi_delta": 0,
       "vol_delta": 0.059544538401297586,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7153,7 +7169,7 @@
       "oi_delta": 0,
       "vol_delta": 0.060230024850170594,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7167,7 +7183,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.060928545312634697,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7181,7 +7197,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06164004331409956,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7195,7 +7211,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06236447943948065,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7209,7 +7225,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06310183133277292,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7223,7 +7239,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06385209369682343,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7237,7 +7253,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.06461527829316083,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7251,7 +7267,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06539141394321746,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7265,7 +7281,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06618054652679461,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7279,7 +7295,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06698273898354046,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7293,7 +7309,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06779807131158577,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7307,7 +7323,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06862664056760082,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7321,7 +7337,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06946856086852904,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7335,7 +7351,7 @@
       "oi_delta": 0,
       "vol_delta": 0.07032396338939861,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7349,7 +7365,7 @@
       "oi_delta": 0,
       "vol_delta": 0.07119299636502774,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7363,7 +7379,7 @@
       "oi_delta": 9.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7377,7 +7393,7 @@
       "oi_delta": 71.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7391,7 +7407,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.07348605109399386,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7405,7 +7421,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.06669216052620186,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7419,7 +7435,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.06073942819381273,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7433,7 +7449,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05560389281592393,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7447,7 +7463,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.051258406683416524,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7461,7 +7477,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04767263565699409,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7475,7 +7491,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04481305916766587,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7489,7 +7505,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0426429702172868,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7503,7 +7519,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04112247537727853,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7517,7 +7533,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04020849479005051,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7531,7 +7547,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.03985476216766415,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7545,7 +7561,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04001182479319709,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7559,7 +7575,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0406270435190379,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7573,7 +7589,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04164459277012611,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7587,7 +7603,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.043005460537926865,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7601,7 +7617,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04464744838907109,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7615,7 +7631,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.04650517145591948,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7629,7 +7645,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0485100584439806,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7643,7 +7659,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05059035162815917,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7657,7 +7673,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.052671106854006666,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7671,7 +7687,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.054674193536925486,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7685,7 +7701,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05651829466319214,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7699,7 +7715,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05811890678950249,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7713,7 +7729,7 @@
       "oi_delta": 31.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7727,7 +7743,7 @@
       "oi_delta": 21.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7741,7 +7757,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.10082493173882767,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7755,7 +7771,7 @@
       "oi_delta": 0,
       "vol_delta": 0.09804905257016117,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7769,7 +7785,7 @@
       "oi_delta": 0,
       "vol_delta": 0.09537288705610081,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7783,7 +7799,7 @@
       "oi_delta": 0,
       "vol_delta": 0.0927949529831551,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7797,7 +7813,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0903137820626938,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7811,7 +7827,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08792791993393223,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7825,7 +7841,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.08563592616432913,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7839,7 +7855,7 @@
       "oi_delta": 0,
       "vol_delta": 0.08343637424592032,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7853,7 +7869,7 @@
       "oi_delta": 0,
       "vol_delta": 0.08132785160007927,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7867,7 +7883,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0793089595722023,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7881,7 +7897,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.07737831343790447,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7895,7 +7911,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.07553454239773316,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7909,7 +7925,7 @@
       "oi_delta": 0,
       "vol_delta": 0.07377628957952709,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7923,7 +7939,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.07210221203830258,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7937,7 +7953,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.07051098075488937,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7951,7 +7967,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06900128063978173,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7965,7 +7981,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0675718105275962,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7979,7 +7995,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.06622128318115017,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -7993,7 +8009,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0649484252903676,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8007,7 +8023,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.06375197747058792,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8021,7 +8037,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06263069426721302,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8035,7 +8051,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.06158334414945443,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8049,7 +8065,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06060870951500874,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8063,7 +8079,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.059705586687584855,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8077,7 +8093,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05887278591978884,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8091,7 +8107,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05810913138911644,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8105,7 +8121,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0574134612001842,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8119,7 +8135,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05678462738582368,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8133,7 +8149,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0562214959051488,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8147,7 +8163,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.055722946643541604,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8161,7 +8177,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05528787341418706,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8175,7 +8191,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05491518395766093,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8189,7 +8205,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05460379993949971,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8203,7 +8219,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.054352656954435474,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8217,7 +8233,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.054160704522885794,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8231,7 +8247,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05402690609278693,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8245,7 +8261,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.053950239038542236,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8259,7 +8275,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.053929694661349004,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8273,7 +8289,7 @@
       "oi_delta": 0,
       "vol_delta": 0.053964278189837955,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8287,7 +8303,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05405300877983166,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8301,7 +8317,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.054194919513790296,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8315,7 +8331,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05438905740048483,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8329,7 +8345,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05463448337629018,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8343,7 +8359,7 @@
       "oi_delta": 0,
       "vol_delta": 0.054930272305242056,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8357,7 +8373,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05527551297628008,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8371,7 +8387,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05566930810739734,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8385,7 +8401,7 @@
       "oi_delta": 0,
       "vol_delta": 0.05611077434228662,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8399,7 +8415,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05659904225163359,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8413,7 +8429,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.057133256334154225,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8427,7 +8443,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05771257501461946,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8441,7 +8457,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.05833617064402574,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8455,7 +8471,7 @@
       "oi_delta": 0,
       "vol_delta": 0.059003229501797705,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8469,7 +8485,7 @@
       "oi_delta": 0,
       "vol_delta": 0.059712951793187585,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8483,7 +8499,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.06046455165187581,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8497,7 +8513,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0612572571368446,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8511,7 +8527,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06209031023456646,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8525,7 +8541,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06296296685823677,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8539,7 +8555,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06387449684835644,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8553,7 +8569,7 @@
       "oi_delta": 0,
       "vol_delta": 0.064824183973613,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8567,7 +8583,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.06581132592624783,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8581,7 +8597,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06683523432946004,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8595,7 +8611,7 @@
       "oi_delta": 0,
       "vol_delta": 0.06789523473008785,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8609,7 +8625,7 @@
       "oi_delta": 0,
       "vol_delta": 0.0689906666039235,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8623,7 +8639,7 @@
       "oi_delta": 0,
       "vol_delta": 0.07012088335287103,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8637,7 +8653,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.07128525230693583,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8651,7 +8667,7 @@
       "oi_delta": 0,
       "vol_delta": 0.07248315472033084,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8665,7 +8681,7 @@
       "oi_delta": 0,
       "vol_delta": 0.07371398577697619,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8679,7 +8695,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.07497715458734433,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8693,7 +8709,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.07627208418725218,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8707,7 +8723,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0775982115409164,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8721,7 +8737,7 @@
       "oi_delta": 0,
       "vol_delta": 0.07895498753946129,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8735,7 +8751,7 @@
       "oi_delta": 0,
       "vol_delta": 0.08034187699888662,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8749,7 +8765,7 @@
       "oi_delta": 0,
       "vol_delta": 0.08175835866609305,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8763,7 +8779,7 @@
       "oi_delta": 0,
       "vol_delta": 0.08320392521147824,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8777,7 +8793,7 @@
       "oi_delta": 0.0,
       "vol_delta": 0.0846780832332712,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8791,7 +8807,7 @@
       "oi_delta": 0,
       "vol_delta": 0.08618035325737594,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8805,7 +8821,7 @@
       "oi_delta": 0,
       "vol_delta": 0.0877102697357941,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -8819,7 +8835,7 @@
       "oi_delta": 39.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -9195,6 +9211,538 @@
       "from_snapshot": "20260817T235014Z",
       "event_snapshot": "20260817T235516Z",
       "oi_delta": -2.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 3925.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 6.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 3950.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 17.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 3975.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 2.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4000.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 2.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4025.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 2.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4050.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 54.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4075.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 2.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4100.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 3.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4125.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 250.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4150.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 161.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4175.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 13.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4200.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 55.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4225.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 20.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4250.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 26.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4275.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 4.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4300.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 43.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4325.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 15.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4350.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 154.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4375.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 8.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4400.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 153.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4425.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 36.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4450.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 154.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4475.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 13.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4500.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 184.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4525.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 8.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4550.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 53.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4575.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 81.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4600.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 17.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4650.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 17.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4675.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 40.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4700.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 15.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4725.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 11.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4750.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 29.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4775.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 5.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4800.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 54.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4825.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 37.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4900.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 53.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 5000.0,
+      "from_snapshot": "20260817T235516Z",
+      "event_snapshot": "20260818T000022Z",
+      "oi_delta": 81.0,
       "vol_delta": null,
       "future_outcome": {
         "5": null,
