@@ -1,30 +1,13 @@
 {
   "schema_version": "vol2vol.strike-compare.v1",
-  "generated_at_utc": "2026-08-18T12:11:45.195665+00:00",
+  "generated_at_utc": "2026-08-18T12:16:54.870190+00:00",
   "research_only": true,
   "series": [
     {
       "series": "G3TQ6",
-      "latest_snapshot": "20260818T121124Z",
-      "previous_snapshot": "20260818T120620Z",
+      "latest_snapshot": "20260818T121633Z",
+      "previous_snapshot": "20260818T121124Z",
       "rows": [
-        {
-          "strike": 4330.0,
-          "status": "removed",
-          "latest": null,
-          "previous": {
-            "strike": 4330.0,
-            "call_value": 0,
-            "put_value": 6,
-            "vol_settle": 0.29912489905018447,
-            "strike_id": 7922249
-          },
-          "delta": {
-            "call_value": null,
-            "put_value": null,
-            "vol_settle": null
-          }
-        },
         {
           "strike": 4335.0,
           "status": "unchanged",
@@ -806,13 +789,30 @@
             "put_value": 0.0,
             "vol_settle": 0.0
           }
+        },
+        {
+          "strike": 4505.0,
+          "status": "added",
+          "latest": {
+            "strike": 4505.0,
+            "call_value": 3,
+            "put_value": 0,
+            "vol_settle": 0.2661829699200098,
+            "strike_id": 7922277
+          },
+          "previous": null,
+          "delta": {
+            "call_value": null,
+            "put_value": null,
+            "vol_settle": null
+          }
         }
       ]
     },
     {
       "series": "G3WQ6",
-      "latest_snapshot": "20260818T121124Z",
-      "previous_snapshot": "20260818T120620Z",
+      "latest_snapshot": "20260818T121633Z",
+      "previous_snapshot": "20260818T121124Z",
       "rows": [
         {
           "strike": 4250.0,
@@ -2380,7 +2380,7 @@
         },
         {
           "strike": 4590.0,
-          "status": "added",
+          "status": "unchanged",
           "latest": {
             "strike": 4590.0,
             "call_value": 6,
@@ -2388,30 +2388,30 @@
             "vol_settle": 0.28126207702595707,
             "strike_id": 7925818
           },
-          "previous": null,
+          "previous": {
+            "strike": 4590.0,
+            "call_value": 6,
+            "put_value": 0,
+            "vol_settle": 0.28126207702595707,
+            "strike_id": 7925818
+          },
           "delta": {
-            "call_value": null,
-            "put_value": null,
-            "vol_settle": null
+            "call_value": 0.0,
+            "put_value": 0.0,
+            "vol_settle": 0.0
           }
         }
       ]
     },
     {
       "series": "G3RQ6",
-      "latest_snapshot": "20260818T121124Z",
-      "previous_snapshot": "20260818T120620Z",
+      "latest_snapshot": "20260818T121633Z",
+      "previous_snapshot": "20260818T121124Z",
       "rows": [
         {
           "strike": 4190.0,
-          "status": "unchanged",
-          "latest": {
-            "strike": 4190.0,
-            "call_value": 0,
-            "put_value": 0,
-            "vol_settle": null,
-            "strike_id": 7929393
-          },
+          "status": "removed",
+          "latest": null,
           "previous": {
             "strike": 4190.0,
             "call_value": 0,
@@ -2420,8 +2420,8 @@
             "strike_id": 7929393
           },
           "delta": {
-            "call_value": 0.0,
-            "put_value": 0.0,
+            "call_value": null,
+            "put_value": null,
             "vol_settle": null
           }
         },
@@ -4543,7 +4543,7 @@
         },
         {
           "strike": 4655.0,
-          "status": "added",
+          "status": "unchanged",
           "latest": {
             "strike": 4655.0,
             "call_value": 0,
@@ -4551,30 +4551,30 @@
             "vol_settle": 0.29527044294613347,
             "strike_id": 7929467
           },
-          "previous": null,
+          "previous": {
+            "strike": 4655.0,
+            "call_value": 0,
+            "put_value": 0,
+            "vol_settle": 0.29527044294613347,
+            "strike_id": 7929467
+          },
           "delta": {
-            "call_value": null,
-            "put_value": null,
-            "vol_settle": null
+            "call_value": 0.0,
+            "put_value": 0.0,
+            "vol_settle": 0.0
           }
         }
       ]
     },
     {
       "series": "OG3Q6",
-      "latest_snapshot": "20260818T121124Z",
-      "previous_snapshot": "20260818T120620Z",
+      "latest_snapshot": "20260818T121633Z",
+      "previous_snapshot": "20260818T121124Z",
       "rows": [
         {
           "strike": 4145.0,
-          "status": "unchanged",
-          "latest": {
-            "strike": 4145.0,
-            "call_value": 0,
-            "put_value": 0,
-            "vol_settle": null,
-            "strike_id": 7861950
-          },
+          "status": "removed",
+          "latest": null,
           "previous": {
             "strike": 4145.0,
             "call_value": 0,
@@ -4583,8 +4583,8 @@
             "strike_id": 7861950
           },
           "delta": {
-            "call_value": 0.0,
-            "put_value": 0.0,
+            "call_value": null,
+            "put_value": null,
             "vol_settle": null
           }
         },
@@ -7140,13 +7140,30 @@
             "put_value": 0.0,
             "vol_settle": 0.0
           }
+        },
+        {
+          "strike": 4705.0,
+          "status": "added",
+          "latest": {
+            "strike": 4705.0,
+            "call_value": 0,
+            "put_value": 0,
+            "vol_settle": 0.3010609035828793,
+            "strike_id": 7936148
+          },
+          "previous": null,
+          "delta": {
+            "call_value": null,
+            "put_value": null,
+            "vol_settle": null
+          }
         }
       ]
     },
     {
       "series": "G4MQ6",
-      "latest_snapshot": "20260818T121124Z",
-      "previous_snapshot": "20260818T120620Z",
+      "latest_snapshot": "20260818T121633Z",
+      "previous_snapshot": "20260818T121124Z",
       "rows": [
         {
           "strike": 3925.0,
