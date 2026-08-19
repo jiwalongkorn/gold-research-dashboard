@@ -1,0 +1,100 @@
+{
+  "schema_version": "gold.event-type-stability.v1",
+  "status": "research_only",
+  "approval_required": true,
+  "generated_at_utc": "2026-08-19T10:25:32.042798+00:00",
+  "minimum_sample": 30,
+  "test_events": 832,
+  "rows": [
+    {
+      "event_type": "oi",
+      "events": 364,
+      "h5": {
+        "n": 349,
+        "mean_delta": -2.863896848137502,
+        "positive_fraction": 0.32951289398280803,
+        "eligible": true
+      },
+      "h15": {
+        "n": 341,
+        "mean_delta": -3.9307917888562507,
+        "positive_fraction": 0.30791788856304986,
+        "eligible": true
+      },
+      "h30": {
+        "n": 309,
+        "mean_delta": -5.064724919093783,
+        "positive_fraction": 0.3333333333333333,
+        "eligible": true
+      },
+      "h60": {
+        "n": 222,
+        "mean_delta": -10.80630630630618,
+        "positive_fraction": 0.38288288288288286,
+        "eligible": true
+      }
+    },
+    {
+      "event_type": "oi_and_vol",
+      "events": 204,
+      "h5": {
+        "n": 204,
+        "mean_delta": 10.01127450980349,
+        "positive_fraction": 0.9950980392156863,
+        "eligible": true
+      },
+      "h15": {
+        "n": 204,
+        "mean_delta": 0.7872549019605007,
+        "positive_fraction": 0.9950980392156863,
+        "eligible": true
+      },
+      "h30": {
+        "n": 204,
+        "mean_delta": 14.839215686274379,
+        "positive_fraction": 0.9950980392156863,
+        "eligible": true
+      },
+      "h60": {
+        "n": 204,
+        "mean_delta": 22.033333333333292,
+        "positive_fraction": 0.9950980392156863,
+        "eligible": true
+      }
+    },
+    {
+      "event_type": "vol",
+      "events": 264,
+      "h5": {
+        "n": 240,
+        "mean_delta": 0.0,
+        "positive_fraction": 0.0,
+        "eligible": true
+      },
+      "h15": {
+        "n": 240,
+        "mean_delta": 0.0,
+        "positive_fraction": 0.0,
+        "eligible": true
+      },
+      "h30": {
+        "n": 240,
+        "mean_delta": 0.0,
+        "positive_fraction": 0.0,
+        "eligible": true
+      },
+      "h60": {
+        "n": 240,
+        "mean_delta": 9.699999999999818,
+        "positive_fraction": 1.0,
+        "eligible": true
+      }
+    }
+  ],
+  "limitations": [
+    "descriptive only",
+    "event type is derived from available normalized fields",
+    "not a trading backtest",
+    "no costs/fills/slippage"
+  ]
+}
