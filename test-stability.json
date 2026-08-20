@@ -2,19 +2,19 @@
   "schema_version": "gold.test-stability.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-20T05:26:31.150704+00:00",
+  "generated_at_utc": "2026-08-20T05:31:43.177017+00:00",
   "method": {
     "test_split": "chronological final 30% of event snapshots",
-    "test_snapshots": 142,
+    "test_snapshots": 143,
     "lookahead_control": "only outcomes after event_snapshot are used",
     "multiple_testing": "all configured Series and horizons reported; no cherry-picking"
   },
   "test_overall": {
-    "events": 1528,
+    "events": 1529,
     "h5": {
-      "n": 1514,
-      "mean_future_delta": 8.720475561426635,
-      "positive_fraction": 0.3560105680317041
+      "n": 1515,
+      "mean_future_delta": 8.711749174917442,
+      "positive_fraction": 0.3557755775577558
     },
     "h15": {
       "n": 1108,
@@ -35,11 +35,11 @@
   "test_by_series": [
     {
       "series": "G3RQ6",
-      "events": 315,
+      "events": 316,
       "h5": {
-        "n": 311,
-        "mean_future_delta": 10.326045016077154,
-        "positive_fraction": 0.5562700964630225
+        "n": 312,
+        "mean_future_delta": 10.278525641025626,
+        "positive_fraction": 0.5544871794871795
       },
       "h15": {
         "n": 240,
@@ -205,11 +205,11 @@
     },
     {
       "date": "20260820",
-      "events": 564,
+      "events": 565,
       "h5": {
-        "n": 550,
-        "mean_future_delta": -20.14109090909106,
-        "positive_fraction": 0.07090909090909091
+        "n": 551,
+        "mean_future_delta": -20.112704174228828,
+        "positive_fraction": 0.07078039927404718
       },
       "h15": {
         "n": 179,
@@ -232,7 +232,7 @@
     "5": {
       "series_with_same_sign": 5,
       "series_count": 6,
-      "aggregate_mean": 7.733163305311261,
+      "aggregate_mean": 7.725243409469339,
       "sign_definition": "positive/negative/zero; descriptive only"
     },
     "15": {
