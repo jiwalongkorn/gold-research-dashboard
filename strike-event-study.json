@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-20T06:17:36.457941+00:00",
+  "generated_at_utc": "2026-08-20T06:22:28.560365+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 799,
+    "snapshots": 800,
     "first": "20260817T054625Z",
-    "last": "20260820T061634Z"
+    "last": "20260820T062135Z"
   },
   "summary": [
     {
@@ -43,9 +43,9 @@
       "h5_n": 705,
       "h5_mean_future_delta": 4.795744680851048,
       "h5_positive_fraction": 0.4595744680851064,
-      "h15_n": 696,
-      "h15_mean_future_delta": 5.7324712643677715,
-      "h15_positive_fraction": 0.39798850574712646,
+      "h15_n": 697,
+      "h15_mean_future_delta": 5.725107604017172,
+      "h15_positive_fraction": 0.3988522238163558,
       "h30_n": 624,
       "h30_mean_future_delta": 13.862179487179516,
       "h30_positive_fraction": 0.46153846153846156,
@@ -129,13 +129,13 @@
       "h30_n": 631,
       "h30_mean_future_delta": 16.10839936608555,
       "h30_positive_fraction": 0.5356576862123613,
-      "h60_n": 628,
-      "h60_mean_future_delta": 19.953184713375823,
-      "h60_positive_fraction": 0.6242038216560509
+      "h60_n": 629,
+      "h60_mean_future_delta": 19.86915739268683,
+      "h60_positive_fraction": 0.6232114467408585
     },
     {
       "series": "OGU6",
-      "events": 340,
+      "events": 341,
       "h5_n": 336,
       "h5_mean_future_delta": -14.159523809524037,
       "h5_positive_fraction": 0.050595238095238096,
@@ -45410,7 +45410,7 @@
         "5": 0.0,
         "15": 0.0,
         "30": 0.0,
-        "60": null
+        "60": -32.900000000000546
       }
     },
     {
@@ -50728,7 +50728,7 @@
       "vol_delta": null,
       "future_outcome": {
         "5": -4.5,
-        "15": null,
+        "15": 0.5999999999994543,
         "30": null,
         "60": null
       }
@@ -51243,6 +51243,20 @@
       "from_snapshot": "20260820T061126Z",
       "event_snapshot": "20260820T061634Z",
       "oi_delta": 44.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4945.0,
+      "from_snapshot": "20260820T061634Z",
+      "event_snapshot": "20260820T062135Z",
+      "oi_delta": 26.0,
       "vol_delta": null,
       "future_outcome": {
         "5": null,
