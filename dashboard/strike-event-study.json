@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-20T13:12:36.094202+00:00",
+  "generated_at_utc": "2026-08-20T13:17:40.789060+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 819,
+    "snapshots": 820,
     "first": "20260817T054625Z",
-    "last": "20260820T131058Z"
+    "last": "20260820T131601Z"
   },
   "summary": [
     {
@@ -39,16 +39,16 @@
     },
     {
       "series": "G3RQ6",
-      "events": 743,
-      "h5_n": 718,
-      "h5_mean_future_delta": 4.634122562674081,
-      "h5_positive_fraction": 0.4582172701949861,
-      "h15_n": 712,
-      "h15_mean_future_delta": 5.536516853932539,
-      "h15_positive_fraction": 0.40168539325842695,
-      "h30_n": 700,
-      "h30_mean_future_delta": 9.271142857142854,
-      "h30_positive_fraction": 0.4114285714285714,
+      "events": 745,
+      "h5_n": 731,
+      "h5_mean_future_delta": 4.948290013679864,
+      "h5_positive_fraction": 0.46785225718194257,
+      "h15_n": 713,
+      "h15_mean_future_delta": 5.506591865357597,
+      "h15_positive_fraction": 0.4011220196353436,
+      "h30_n": 701,
+      "h30_mean_future_delta": 9.248787446504988,
+      "h30_positive_fraction": 0.4108416547788873,
       "h60_n": 623,
       "h60_mean_future_delta": 15.950561797752957,
       "h60_positive_fraction": 0.5826645264847512
@@ -87,10 +87,10 @@
     },
     {
       "series": "G4MQ6",
-      "events": 353,
-      "h5_n": 249,
-      "h5_mean_future_delta": 1.5148594377510363,
-      "h5_positive_fraction": 0.3453815261044177,
+      "events": 354,
+      "h5_n": 347,
+      "h5_mean_future_delta": 6.6224783861672725,
+      "h5_positive_fraction": 0.5302593659942363,
       "h15_n": 249,
       "h15_mean_future_delta": -0.42811244979926766,
       "h15_positive_fraction": 0.24899598393574296,
@@ -104,9 +104,9 @@
     {
       "series": "G4TQ6",
       "events": 185,
-      "h5_n": 129,
-      "h5_mean_future_delta": 7.304651162790678,
-      "h5_positive_fraction": 0.3333333333333333,
+      "h5_n": 183,
+      "h5_mean_future_delta": 11.22786885245911,
+      "h5_positive_fraction": 0.5300546448087432,
       "h15_n": 129,
       "h15_mean_future_delta": 7.235658914728524,
       "h15_positive_fraction": 0.35658914728682173,
@@ -119,10 +119,10 @@
     },
     {
       "series": "OG3Q6",
-      "events": 758,
-      "h5_n": 742,
-      "h5_mean_future_delta": 5.656064690026965,
-      "h5_positive_fraction": 0.4326145552560647,
+      "events": 760,
+      "h5_n": 751,
+      "h5_mean_future_delta": 5.824367509986693,
+      "h5_positive_fraction": 0.4394141145139814,
       "h15_n": 735,
       "h15_mean_future_delta": 6.741088435374069,
       "h15_positive_fraction": 0.4217687074829932,
@@ -135,10 +135,10 @@
     },
     {
       "series": "OGU6",
-      "events": 367,
-      "h5_n": 345,
-      "h5_mean_future_delta": -13.931884057971232,
-      "h5_positive_fraction": 0.06376811594202898,
+      "events": 369,
+      "h5_n": 358,
+      "h5_mean_future_delta": -12.739664804469495,
+      "h5_positive_fraction": 0.09776536312849161,
       "h15_n": 342,
       "h15_mean_future_delta": -18.55643274853823,
       "h15_positive_fraction": 0.029239766081871343,
@@ -50925,7 +50925,7 @@
       "future_outcome": {
         "5": -6.400000000000546,
         "15": 9.399999999999636,
-        "30": null,
+        "30": -6.400000000000546,
         "60": null
       }
     },
@@ -51358,7 +51358,7 @@
       "vol_delta": null,
       "future_outcome": {
         "5": -6.199999999999818,
-        "15": null,
+        "15": -15.800000000000182,
         "30": null,
         "60": null
       }
@@ -51581,7 +51581,7 @@
       "oi_delta": 53.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 22.299999999999272,
         "15": null,
         "30": null,
         "60": null
@@ -51595,7 +51595,7 @@
       "oi_delta": 33.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 22.299999999999272,
         "15": null,
         "30": null,
         "60": null
@@ -51609,7 +51609,7 @@
       "oi_delta": 16.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 22.299999999999272,
         "15": null,
         "30": null,
         "60": null
@@ -51623,7 +51623,7 @@
       "oi_delta": -8.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 22.299999999999272,
         "15": null,
         "30": null,
         "60": null
@@ -51637,7 +51637,7 @@
       "oi_delta": -313.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 22.299999999999272,
         "15": null,
         "30": null,
         "60": null
@@ -51651,7 +51651,7 @@
       "oi_delta": -6.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 22.299999999999272,
         "15": null,
         "30": null,
         "60": null
@@ -51665,7 +51665,7 @@
       "oi_delta": -9.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 22.299999999999272,
         "15": null,
         "30": null,
         "60": null
@@ -51679,7 +51679,7 @@
       "oi_delta": -3.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 22.299999999999272,
         "15": null,
         "30": null,
         "60": null
@@ -51693,7 +51693,7 @@
       "oi_delta": -3.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 22.299999999999272,
         "15": null,
         "30": null,
         "60": null
@@ -51707,7 +51707,7 @@
       "oi_delta": -43.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 22.299999999999272,
         "15": null,
         "30": null,
         "60": null
@@ -51721,7 +51721,7 @@
       "oi_delta": -5.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 22.299999999999272,
         "15": null,
         "30": null,
         "60": null
@@ -51735,7 +51735,7 @@
       "oi_delta": -6.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 22.299999999999272,
         "15": null,
         "30": null,
         "60": null
@@ -51749,7 +51749,7 @@
       "oi_delta": -15.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 22.299999999999272,
         "15": null,
         "30": null,
         "60": null
@@ -51763,7 +51763,7 @@
       "oi_delta": 4.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.699999999999818,
         "15": null,
         "30": null,
         "60": null
@@ -51777,7 +51777,7 @@
       "oi_delta": 38.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.699999999999818,
         "15": null,
         "30": null,
         "60": null
@@ -51791,7 +51791,7 @@
       "oi_delta": -305.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.699999999999818,
         "15": null,
         "30": null,
         "60": null
@@ -51805,7 +51805,7 @@
       "oi_delta": -2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.699999999999818,
         "15": null,
         "30": null,
         "60": null
@@ -51819,7 +51819,7 @@
       "oi_delta": -6.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.699999999999818,
         "15": null,
         "30": null,
         "60": null
@@ -51833,7 +51833,7 @@
       "oi_delta": -2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.699999999999818,
         "15": null,
         "30": null,
         "60": null
@@ -51847,7 +51847,7 @@
       "oi_delta": -29.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.699999999999818,
         "15": null,
         "30": null,
         "60": null
@@ -51861,7 +51861,7 @@
       "oi_delta": -15.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.699999999999818,
         "15": null,
         "30": null,
         "60": null
@@ -51875,7 +51875,7 @@
       "oi_delta": -10.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.699999999999818,
         "15": null,
         "30": null,
         "60": null
@@ -51889,7 +51889,7 @@
       "oi_delta": 133.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 18.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -51903,7 +51903,7 @@
       "oi_delta": 1447.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 18.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -51917,7 +51917,7 @@
       "oi_delta": 425.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 18.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -51931,7 +51931,7 @@
       "oi_delta": -221.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 18.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -51945,7 +51945,7 @@
       "oi_delta": -30.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 18.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -51959,7 +51959,7 @@
       "oi_delta": -560.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 18.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -51973,7 +51973,7 @@
       "oi_delta": -122.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 18.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -51987,7 +51987,7 @@
       "oi_delta": -24.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 18.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -52001,7 +52001,7 @@
       "oi_delta": -93.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 18.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -52015,7 +52015,7 @@
       "oi_delta": -68.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 18.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -52029,7 +52029,7 @@
       "oi_delta": -122.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 18.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -52043,7 +52043,7 @@
       "oi_delta": -27.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 18.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -52057,7 +52057,7 @@
       "oi_delta": -25.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 18.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -52071,7 +52071,7 @@
       "oi_delta": -4.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52085,7 +52085,7 @@
       "oi_delta": -3.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52099,7 +52099,7 @@
       "oi_delta": -202.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52113,7 +52113,7 @@
       "oi_delta": -51.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52127,7 +52127,7 @@
       "oi_delta": -3.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52141,7 +52141,7 @@
       "oi_delta": 20.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52155,7 +52155,7 @@
       "oi_delta": -8.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52169,7 +52169,7 @@
       "oi_delta": 57.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52183,7 +52183,7 @@
       "oi_delta": 24.0,
       "vol_delta": 0.02182370448856119,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52197,7 +52197,7 @@
       "oi_delta": 68.0,
       "vol_delta": 0.013768724693900225,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52211,7 +52211,7 @@
       "oi_delta": 29.0,
       "vol_delta": 0.0069649443288142265,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52225,7 +52225,7 @@
       "oi_delta": -34.0,
       "vol_delta": 0.001322780658767897,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52239,7 +52239,7 @@
       "oi_delta": 18.0,
       "vol_delta": -0.0032435905643133367,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52253,7 +52253,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52267,7 +52267,7 @@
       "oi_delta": 13.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52281,7 +52281,7 @@
       "oi_delta": -4.0,
       "vol_delta": -0.006816235102888868,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52295,7 +52295,7 @@
       "oi_delta": 6.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52309,7 +52309,7 @@
       "oi_delta": 20.0,
       "vol_delta": -0.00947346023363238,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52323,7 +52323,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52337,7 +52337,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52351,7 +52351,7 @@
       "oi_delta": 3.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52365,7 +52365,7 @@
       "oi_delta": 50.0,
       "vol_delta": -0.01128981474718671,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52379,7 +52379,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52393,7 +52393,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52407,7 +52407,7 @@
       "oi_delta": 295.0,
       "vol_delta": -0.012336088948345036,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52421,7 +52421,7 @@
       "oi_delta": 22.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52435,7 +52435,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52449,7 +52449,7 @@
       "oi_delta": -145.0,
       "vol_delta": -0.012679314656161011,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52463,7 +52463,7 @@
       "oi_delta": 3.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52477,7 +52477,7 @@
       "oi_delta": 39.0,
       "vol_delta": -0.012382765204307589,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52491,7 +52491,7 @@
       "oi_delta": 5.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52505,7 +52505,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52519,7 +52519,7 @@
       "oi_delta": 2.0,
       "vol_delta": -0.011505955439581328,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52533,7 +52533,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52547,7 +52547,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52561,7 +52561,7 @@
       "oi_delta": 54.0,
       "vol_delta": -0.010104641723593488,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52575,7 +52575,7 @@
       "oi_delta": 102.0,
       "vol_delta": -0.008230821932286858,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52589,7 +52589,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52603,7 +52603,7 @@
       "oi_delta": 29.0,
       "vol_delta": -0.005932735455360216,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52617,7 +52617,7 @@
       "oi_delta": 77.0,
       "vol_delta": -0.0032548631965028108,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52631,7 +52631,7 @@
       "oi_delta": 12.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52645,7 +52645,7 @@
       "oi_delta": 168.0,
       "vol_delta": -0.00023792757458096503,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52659,7 +52659,7 @@
       "oi_delta": 15.0,
       "vol_delta": 0.0030811074789838244,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52673,7 +52673,7 @@
       "oi_delta": 33.0,
       "vol_delta": 0.006669036517195082,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52687,7 +52687,7 @@
       "oi_delta": 38.0,
       "vol_delta": 0.010496412579165337,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52701,7 +52701,7 @@
       "oi_delta": 4.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52715,7 +52715,7 @@
       "oi_delta": 12.0,
       "vol_delta": 0.014537547190933253,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52729,7 +52729,7 @@
       "oi_delta": -1.0,
       "vol_delta": 0.01877051036299804,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52743,7 +52743,7 @@
       "oi_delta": 4.0,
       "vol_delta": 0.02317713059207449,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52757,7 +52757,7 @@
       "oi_delta": -12.0,
       "vol_delta": 0.02774299486151932,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52771,7 +52771,7 @@
       "oi_delta": 10.0,
       "vol_delta": 0.03245744863959743,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52785,7 +52785,7 @@
       "oi_delta": -1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52799,7 +52799,7 @@
       "oi_delta": -6.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52813,7 +52813,7 @@
       "oi_delta": -3.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 20.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52827,7 +52827,7 @@
       "oi_delta": -7.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52841,7 +52841,7 @@
       "oi_delta": -2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52855,7 +52855,7 @@
       "oi_delta": -51.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52869,7 +52869,7 @@
       "oi_delta": -2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52883,7 +52883,7 @@
       "oi_delta": -33.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52897,7 +52897,7 @@
       "oi_delta": -272.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52911,7 +52911,7 @@
       "oi_delta": -194.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52925,7 +52925,7 @@
       "oi_delta": -37.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52939,7 +52939,7 @@
       "oi_delta": -62.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52953,7 +52953,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52967,7 +52967,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52981,7 +52981,7 @@
       "oi_delta": -30.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -52995,7 +52995,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53009,7 +53009,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53023,7 +53023,7 @@
       "oi_delta": 10.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53037,7 +53037,7 @@
       "oi_delta": 43.0,
       "vol_delta": 0.026657500199902984,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53051,7 +53051,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53065,7 +53065,7 @@
       "oi_delta": -23.0,
       "vol_delta": 0.014812735871558402,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53079,7 +53079,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53093,7 +53093,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53107,7 +53107,7 @@
       "oi_delta": 3.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53121,7 +53121,7 @@
       "oi_delta": 44.0,
       "vol_delta": 0.005090004941095572,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53135,7 +53135,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53149,7 +53149,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53163,7 +53163,7 @@
       "oi_delta": 18.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53177,7 +53177,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53191,7 +53191,7 @@
       "oi_delta": 0.0,
       "vol_delta": -0.0027136633851654324,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53205,7 +53205,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53219,7 +53219,7 @@
       "oi_delta": 5.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53233,7 +53233,7 @@
       "oi_delta": 96.0,
       "vol_delta": -0.008789673344367088,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53247,7 +53247,7 @@
       "oi_delta": 22.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53261,7 +53261,7 @@
       "oi_delta": 0.0,
       "vol_delta": -0.0133178626162902,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53275,7 +53275,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53289,7 +53289,7 @@
       "oi_delta": -158.0,
       "vol_delta": -0.016466502328000843,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53303,7 +53303,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53317,7 +53317,7 @@
       "oi_delta": 29.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53331,7 +53331,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53345,7 +53345,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53359,7 +53359,7 @@
       "oi_delta": 5.0,
       "vol_delta": -0.018392297049246054,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53373,7 +53373,7 @@
       "oi_delta": 3.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53387,7 +53387,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53401,7 +53401,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53415,7 +53415,7 @@
       "oi_delta": -37.0,
       "vol_delta": -0.019240384793917542,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53429,7 +53429,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53443,7 +53443,7 @@
       "oi_delta": 4.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53457,7 +53457,7 @@
       "oi_delta": 6.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53471,7 +53471,7 @@
       "oi_delta": 13.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53485,7 +53485,7 @@
       "oi_delta": 19.0,
       "vol_delta": -0.019144337020875923,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53499,7 +53499,7 @@
       "oi_delta": 13.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53513,7 +53513,7 @@
       "oi_delta": 11.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53527,7 +53527,7 @@
       "oi_delta": 10.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53541,7 +53541,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53555,7 +53555,7 @@
       "oi_delta": -108.0,
       "vol_delta": -0.018226158631435396,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53569,7 +53569,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53583,7 +53583,7 @@
       "oi_delta": 8.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53597,7 +53597,7 @@
       "oi_delta": 5.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53611,7 +53611,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53625,7 +53625,7 @@
       "oi_delta": -13.0,
       "vol_delta": -0.01659628797527546,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53639,7 +53639,7 @@
       "oi_delta": 6.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53653,7 +53653,7 @@
       "oi_delta": 9.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53667,7 +53667,7 @@
       "oi_delta": 11.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53681,7 +53681,7 @@
       "oi_delta": 14.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53695,7 +53695,7 @@
       "oi_delta": 30.0,
       "vol_delta": -0.014353596842283878,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53709,7 +53709,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53723,7 +53723,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53737,7 +53737,7 @@
       "oi_delta": 4.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53751,7 +53751,7 @@
       "oi_delta": -35.0,
       "vol_delta": -0.011585390468624723,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53765,7 +53765,7 @@
       "oi_delta": 7.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53779,7 +53779,7 @@
       "oi_delta": 22.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53793,7 +53793,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53807,7 +53807,7 @@
       "oi_delta": 19.0,
       "vol_delta": -0.008367407533810933,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53821,7 +53821,7 @@
       "oi_delta": 4.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53835,7 +53835,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53849,7 +53849,7 @@
       "oi_delta": 9.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53863,7 +53863,7 @@
       "oi_delta": 4.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53877,7 +53877,7 @@
       "oi_delta": 3.0,
       "vol_delta": -0.0047638201627933086,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53891,7 +53891,7 @@
       "oi_delta": 4.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53905,7 +53905,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53919,7 +53919,7 @@
       "oi_delta": 10.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53933,7 +53933,7 @@
       "oi_delta": -149.0,
       "vol_delta": -0.0008272339248946992,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53947,7 +53947,7 @@
       "oi_delta": 10.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53961,7 +53961,7 @@
       "oi_delta": -13.0,
       "vol_delta": 0.003401312167738979,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53975,7 +53975,7 @@
       "oi_delta": 1.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -53989,7 +53989,7 @@
       "oi_delta": 191.0,
       "vol_delta": 0.00789234565806396,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54003,7 +54003,7 @@
       "oi_delta": -5.0,
       "vol_delta": 0.012627960643257552,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54017,7 +54017,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54031,7 +54031,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54045,7 +54045,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54059,7 +54059,7 @@
       "oi_delta": -27.0,
       "vol_delta": 0.017601817778555073,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54073,7 +54073,7 @@
       "oi_delta": 4.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54087,7 +54087,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54101,7 +54101,7 @@
       "oi_delta": 2.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54115,7 +54115,7 @@
       "oi_delta": -2.0,
       "vol_delta": 0.022819144272745007,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54129,7 +54129,7 @@
       "oi_delta": -89.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54143,7 +54143,7 @@
       "oi_delta": -40.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54157,7 +54157,7 @@
       "oi_delta": -4.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54171,7 +54171,7 @@
       "oi_delta": -92.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54185,7 +54185,7 @@
       "oi_delta": -93.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 19.600000000000364,
         "15": null,
         "30": null,
         "60": null
@@ -54687,6 +54687,104 @@
       "from_snapshot": "20260820T130557Z",
       "event_snapshot": "20260820T131058Z",
       "oi_delta": 1.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G3RQ6",
+      "strike": 4395.0,
+      "from_snapshot": "20260820T131058Z",
+      "event_snapshot": "20260820T131601Z",
+      "oi_delta": -16.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G3RQ6",
+      "strike": 4400.0,
+      "from_snapshot": "20260820T131058Z",
+      "event_snapshot": "20260820T131601Z",
+      "oi_delta": -179.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4710.0,
+      "from_snapshot": "20260820T131058Z",
+      "event_snapshot": "20260820T131601Z",
+      "oi_delta": -2.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4715.0,
+      "from_snapshot": "20260820T131058Z",
+      "event_snapshot": "20260820T131601Z",
+      "oi_delta": -6.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4910.0,
+      "from_snapshot": "20260820T131058Z",
+      "event_snapshot": "20260820T131601Z",
+      "oi_delta": -24.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4915.0,
+      "from_snapshot": "20260820T131058Z",
+      "event_snapshot": "20260820T131601Z",
+      "oi_delta": -93.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4800.0,
+      "from_snapshot": "20260820T131058Z",
+      "event_snapshot": "20260820T131601Z",
+      "oi_delta": -1.0,
       "vol_delta": null,
       "future_outcome": {
         "5": null,
