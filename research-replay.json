@@ -2,7 +2,7 @@
   "schema_version": "gold.research-replay.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-20T20:25:32.141298+00:00",
+  "generated_at_utc": "2026-08-20T20:30:32.768124+00:00",
   "contract": {
     "type": "chronological_event_study",
     "ordering": "snapshot_id ascending within series",
@@ -28,11 +28,11 @@
     },
     {
       "series": "G3RQ6",
-      "observations": 900,
-      "events": 899,
-      "evaluated_outcomes": 898,
-      "mean_next_observation_delta": 6.585980010011915e-05,
-      "positive_outcome_fraction": 0.19599109131403117,
+      "observations": 901,
+      "events": 900,
+      "evaluated_outcomes": 899,
+      "mean_next_observation_delta": 6.578654114561402e-05,
+      "positive_outcome_fraction": 0.19577308120133483,
       "note": "ATM-vol baseline retained; strike-level OI/vol compare is published separately in strike-compare.json"
     },
     {
@@ -55,38 +55,38 @@
     },
     {
       "series": "G4MQ6",
-      "observations": 713,
-      "events": 712,
-      "evaluated_outcomes": 711,
-      "mean_next_observation_delta": -1.3326728615222244e-05,
-      "positive_outcome_fraction": 0.17580872011251758,
+      "observations": 714,
+      "events": 713,
+      "evaluated_outcomes": 712,
+      "mean_next_observation_delta": -1.3308011299751428e-05,
+      "positive_outcome_fraction": 0.175561797752809,
       "note": "ATM-vol baseline retained; strike-level OI/vol compare is published separately in strike-compare.json"
     },
     {
       "series": "G4TQ6",
-      "observations": 431,
-      "events": 430,
-      "evaluated_outcomes": 429,
-      "mean_next_observation_delta": 4.0536345295731894e-05,
-      "positive_outcome_fraction": 0.20046620046620048,
+      "observations": 432,
+      "events": 431,
+      "evaluated_outcomes": 430,
+      "mean_next_observation_delta": 4.0442074725276704e-05,
+      "positive_outcome_fraction": 0.2,
       "note": "ATM-vol baseline retained; strike-level OI/vol compare is published separately in strike-compare.json"
     },
     {
       "series": "OG3Q6",
-      "observations": 900,
-      "events": 899,
-      "evaluated_outcomes": 898,
-      "mean_next_observation_delta": 0.0001022084057297795,
-      "positive_outcome_fraction": 0.18819599109131402,
+      "observations": 901,
+      "events": 900,
+      "evaluated_outcomes": 899,
+      "mean_next_observation_delta": 0.00010209471451094771,
+      "positive_outcome_fraction": 0.18798665183537264,
       "note": "ATM-vol baseline retained; strike-level OI/vol compare is published separately in strike-compare.json"
     },
     {
       "series": "OGU6",
-      "observations": 174,
-      "events": 173,
-      "evaluated_outcomes": 172,
-      "mean_next_observation_delta": 4.153350272533723e-05,
-      "positive_outcome_fraction": 0.2441860465116279,
+      "observations": 175,
+      "events": 174,
+      "evaluated_outcomes": 173,
+      "mean_next_observation_delta": 4.129342467490175e-05,
+      "positive_outcome_fraction": 0.24277456647398843,
       "note": "ATM-vol baseline retained; strike-level OI/vol compare is published separately in strike-compare.json"
     }
   ],
@@ -8766,6 +8766,14 @@
     {
       "from_snapshot": "20260820T201954Z",
       "to_snapshot": "20260820T202503Z",
+      "event_atm_vol": 0.244081405197107,
+      "atm_vol_delta": 0.0,
+      "next_observation_delta": 0.0,
+      "series": "G3RQ6"
+    },
+    {
+      "from_snapshot": "20260820T202503Z",
+      "to_snapshot": "20260820T203003Z",
       "event_atm_vol": 0.244081405197107,
       "atm_vol_delta": 0.0,
       "next_observation_delta": 0.0,
@@ -24012,6 +24020,14 @@
       "series": "G4MQ6"
     },
     {
+      "from_snapshot": "20260820T202503Z",
+      "to_snapshot": "20260820T203003Z",
+      "event_atm_vol": 0.207226548603899,
+      "atm_vol_delta": 0.0,
+      "next_observation_delta": 0.0,
+      "series": "G4MQ6"
+    },
+    {
       "from_snapshot": "20260819T000310Z",
       "to_snapshot": "20260819T000818Z",
       "event_atm_vol": 0.206529214472518,
@@ -27446,6 +27462,14 @@
     {
       "from_snapshot": "20260820T201954Z",
       "to_snapshot": "20260820T202503Z",
+      "event_atm_vol": 0.223919306604387,
+      "atm_vol_delta": 0.0,
+      "next_observation_delta": 0.0,
+      "series": "G4TQ6"
+    },
+    {
+      "from_snapshot": "20260820T202503Z",
+      "to_snapshot": "20260820T203003Z",
       "event_atm_vol": 0.223919306604387,
       "atm_vol_delta": 0.0,
       "next_observation_delta": 0.0,
@@ -34644,6 +34668,14 @@
       "series": "OG3Q6"
     },
     {
+      "from_snapshot": "20260820T202503Z",
+      "to_snapshot": "20260820T203003Z",
+      "event_atm_vol": 0.282396418504504,
+      "atm_vol_delta": 0.0,
+      "next_observation_delta": 0.0,
+      "series": "OG3Q6"
+    },
+    {
       "from_snapshot": "20260820T000305Z",
       "to_snapshot": "20260820T000811Z",
       "event_atm_vol": 0.228806612363769,
@@ -36022,6 +36054,14 @@
     {
       "from_snapshot": "20260820T201954Z",
       "to_snapshot": "20260820T202503Z",
+      "event_atm_vol": 0.235950374832527,
+      "atm_vol_delta": 0.0,
+      "next_observation_delta": 0.0,
+      "series": "OGU6"
+    },
+    {
+      "from_snapshot": "20260820T202503Z",
+      "to_snapshot": "20260820T203003Z",
       "event_atm_vol": 0.235950374832527,
       "atm_vol_delta": 0.0,
       "next_observation_delta": 0.0,
