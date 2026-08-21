@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-21T23:23:17.991971+00:00",
+  "generated_at_utc": "2026-08-21T23:28:18.677181+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 1213,
+    "snapshots": 1214,
     "first": "20260817T054625Z",
-    "last": "20260821T232245Z"
+    "last": "20260821T232745Z"
   },
   "summary": [
     {
@@ -87,23 +87,23 @@
     },
     {
       "series": "G4MQ6",
-      "events": 651,
+      "events": 727,
       "h5_n": 651,
       "h5_mean_future_delta": 3.8350230414746704,
       "h5_positive_fraction": 0.4116743471582181,
-      "h15_n": 650,
-      "h15_mean_future_delta": 5.3467692307692305,
-      "h15_positive_fraction": 0.3923076923076923,
+      "h15_n": 651,
+      "h15_mean_future_delta": 5.338556067588325,
+      "h15_positive_fraction": 0.391705069124424,
       "h30_n": 648,
       "h30_mean_future_delta": 17.817129629629672,
       "h30_positive_fraction": 0.5339506172839507,
-      "h60_n": 641,
-      "h60_mean_future_delta": 23.551638065522653,
-      "h60_positive_fraction": 0.733229329173167
+      "h60_n": 642,
+      "h60_mean_future_delta": 23.479283489096606,
+      "h60_positive_fraction": 0.7320872274143302
     },
     {
       "series": "G4RQ6",
-      "events": 68,
+      "events": 104,
       "h5_n": 68,
       "h5_mean_future_delta": -0.6191176470589225,
       "h5_positive_fraction": 0.16176470588235295,
@@ -119,7 +119,7 @@
     },
     {
       "series": "G4TQ6",
-      "events": 409,
+      "events": 509,
       "h5_n": 409,
       "h5_mean_future_delta": 4.845721271393605,
       "h5_positive_fraction": 0.32273838630806845,
@@ -129,13 +129,13 @@
       "h30_n": 409,
       "h30_mean_future_delta": 18.02444987775055,
       "h30_positive_fraction": 0.46454767726161367,
-      "h60_n": 406,
-      "h60_mean_future_delta": 27.349261083743908,
-      "h60_positive_fraction": 0.8325123152709359
+      "h60_n": 407,
+      "h60_mean_future_delta": 27.22579852579859,
+      "h60_positive_fraction": 0.8304668304668305
     },
     {
       "series": "OG3Q6",
-      "events": 1275,
+      "events": 1305,
       "h5_n": 1275,
       "h5_mean_future_delta": 4.021254901960772,
       "h5_positive_fraction": 0.43607843137254904,
@@ -145,13 +145,13 @@
       "h30_n": 1275,
       "h30_mean_future_delta": 10.159764705882338,
       "h30_positive_fraction": 0.5050980392156863,
-      "h60_n": 1274,
-      "h60_mean_future_delta": 17.783124018838297,
-      "h60_positive_fraction": 0.652276295133438
+      "h60_n": 1275,
+      "h60_mean_future_delta": 17.751215686274502,
+      "h60_positive_fraction": 0.6517647058823529
     },
     {
       "series": "OGU6",
-      "events": 1087,
+      "events": 1218,
       "h5_n": 1087,
       "h5_mean_future_delta": -4.328150873965161,
       "h5_positive_fraction": 0.27598896044158233,
@@ -161,9 +161,9 @@
       "h30_n": 1084,
       "h30_mean_future_delta": 2.6261070110700717,
       "h30_positive_fraction": 0.37453874538745385,
-      "h60_n": 1059,
-      "h60_mean_future_delta": 9.468177525967882,
-      "h60_positive_fraction": 0.5892351274787535
+      "h60_n": 1061,
+      "h60_mean_future_delta": 9.40716305372289,
+      "h60_positive_fraction": 0.588124410933082
     }
   ],
   "events": [
@@ -81714,7 +81714,7 @@
         "5": -5.300000000000182,
         "15": -5.199999999999818,
         "30": -16.899999999999636,
-        "60": null
+        "60": -22.899999999999636
       }
     },
     {
@@ -81728,7 +81728,7 @@
         "5": -5.300000000000182,
         "15": -5.199999999999818,
         "30": -16.899999999999636,
-        "60": null
+        "60": -22.899999999999636
       }
     },
     {
@@ -81742,7 +81742,7 @@
         "5": -5.300000000000182,
         "15": -5.199999999999818,
         "30": -16.899999999999636,
-        "60": null
+        "60": -22.899999999999636
       }
     },
     {
@@ -81756,7 +81756,7 @@
         "5": -5.300000000000182,
         "15": -5.199999999999818,
         "30": -16.899999999999636,
-        "60": null
+        "60": -22.899999999999636
       }
     },
     {
@@ -81770,7 +81770,7 @@
         "5": -5.300000000000182,
         "15": -5.199999999999818,
         "30": -16.899999999999636,
-        "60": null
+        "60": -22.899999999999636
       }
     },
     {
@@ -82286,6 +82286,5228 @@
       "vol_delta": null,
       "future_outcome": {
         "5": 0.0,
+        "15": 0.0,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4025.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 14.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4150.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.03815158111494199,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4175.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.03578762272579894,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4200.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.03348892767737155,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4225.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.031259944716524046,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4250.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.029104660945215244,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4275.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.027026601820779206,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4300.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.025028831155150755,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4325.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.02311395111579273,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4350.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.021284102224967683,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4375.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.019540963360320518,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4400.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.017885751754391777,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4425.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.016319222994781057,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4450.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.014841671024289127,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4475.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.013452928140925025,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4500.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.012152364997518816,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4525.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.01093889060225095,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4550.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.009810952318183297,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4575.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.00876653586374232,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4600.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.007803165312090243,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4625.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.006917903091892441,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4650.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.006107349986603339,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4675.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.005367645134821686,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4700.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.004694466030414901,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4725.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.004083028522224197,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4750.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0035280868141249755,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4775.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.00302393346521157,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4800.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.00256439938963382,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4825.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0021428538565793076,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4850.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0017522044904438872,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4875.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0013848972706043128,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4900.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0010329165315781097,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4925.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": 0.0006877849630626542,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 4950.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": 0.00034056360976819633,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 5000.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.00039821249674787396,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4RQ6",
+      "strike": 5100.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0023453987440049673,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4175.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 55.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4275.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.046679730104624895,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4300.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.04226196241326363,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4325.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.03800690459524958,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4350.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.03393201571107696,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4375.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.030052447622136214,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4400.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.02638104499156313,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4425.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.022928345283878215,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4450.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.019702578764910328,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4475.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.016709668501921016,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4500.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.01395323036359919,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4525.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.01143457302011619,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4550.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.009152697942630184,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4575.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0071042994042400665,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4600.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0052837644790848515,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4625.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0036831730430222365,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4650.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0022922977730068794,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4675.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.001098604147586002,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4700.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 8.725044670043758e-05,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4725.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.000758912248610244,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4750.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0014593400553160052,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4775.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.002035796289352021,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4800.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0025123514655227552,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4825.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.002915383296745233,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4850.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.003273576694539315,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4875.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.003617923769237308,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4900.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0039817238301012026,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4925.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.004400583384107648,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 4950.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.00491241613744009,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OG3Q6",
+      "strike": 5000.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.006378192059791843,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4270.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 722.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4275.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 448.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4280.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 138.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4285.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 93.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4290.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 365.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4355.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.04632178547915444,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4360.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.04457896663510574,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4365.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.04288148497615474,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4370.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.04122839368433873,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4375.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.039618756421468504,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4380.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.03805164733171296,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4385.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.03652615104018864,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4390.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.03504136265282298,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4395.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.03359638775666518,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4400.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.032190342420509666,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4405.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.03082235319441118,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4410.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.029491557108768163,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4415.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.028197101676093794,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4420.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.026938144889111726,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4425.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.02571385522334424,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4430.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.024523411633998293,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4435.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.02336600355811491,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4440.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.022240830913926146,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4445.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.021147104100469605,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4450.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.02008404399928665,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4455.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.019050881970663625,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4460.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.01804685985898047,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4465.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.01707122998768895,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4470.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.016123255162145966,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4475.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.01520220866933819,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4480.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.014307374276226525,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4485.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.01343804623312117,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4490.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.01259352926916435,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4495.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.011773138596199217,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4500.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.010976199906536976,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4505.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.01020204937428737,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4510.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.009450033654514911,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4515.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.008719509882849863,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4520.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.008009845677493743,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4525.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0073204191361746496,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4530.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.006650618839406874,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4535.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.005999843848373487,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4540.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0053675037047185015,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4545.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.004753018431992828,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4550.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.004155818535167555,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4555.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0035753449996622777,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4560.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0030110492928923094,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4565.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0024623933627037076,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4570.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0019288496387357412,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4575.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0014099010318631144,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4580.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0009050409336097687,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4585.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.00041377321709035186,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4590.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -6.438776368256072e-05,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4595.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0005299171720896112,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4600.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0009832796933562093,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4605.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0014249295278379037,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4610.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.001855310397578691,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4615.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.002274855542127696,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4620.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.002683987719244385,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4625.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.003083119207609286,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4630.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0034726518020278263,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4635.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0038529768180062263,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4640.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0042244750893711824,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4645.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.00458751696873172,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4650.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0049424623267189105,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4655.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0052896605537142705,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4660.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.005629450559032634,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4665.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.005962160770344838,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4670.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.00628810913372746,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4675.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.006607603114662908,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4680.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.006920939697232953,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4685.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.007228405384562819,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4690.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.007530276197591945,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4695.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.00782681767730864,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4700.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.008118284883616766,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4705.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.008404922393484782,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4710.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.008686964304377653,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4715.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.008964634232027535,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4720.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.009238145310449752,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4725.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.009507700193365665,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4730.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.009773491052447625,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4735.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.010035699579184154,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4740.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.01029449698244278,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4745.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.010550043991369051,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4750.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.01080249085226015,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4755.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.011051977332375174,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4760.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.011298632715982748,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4765.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.011542575806055666,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4770.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.01178391492640607,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4775.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.012022747917185939,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4780.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.012259162138743562,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4785.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.012493234469767245,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4790.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.012725031308505663,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4795.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.012954608570909798,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4800.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.013182011691835527,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4805.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.01340727562577193,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4810.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.01363042484550192,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4815.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.013851473342931797,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4820.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.014070424627824707,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4825.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.014287271729429563,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4830.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.014501997196557426,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4835.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.014714573094899208,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4840.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.014924961010500226,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4845.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.01513311204798029,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4850.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.015338966830718448,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4855.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.015542455500256125,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4860.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.01574349771734518,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4865.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.015942002661347487,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4870.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.016137869031719987,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4875.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.016330985044344715,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4880.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.01652122843579562,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4885.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.016708466460883642,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4890.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.016892555893772254,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4895.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.017073343025270304,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4900.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.017250663667720545,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4905.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.017424343151166255,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4910.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.017594196323091893,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4915.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.017760027552139235,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4920.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.01792163072482822,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4925.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.018078789245894455,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4930.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.018231276039092137,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4935.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0183788535474676,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4940.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.018521273732449828,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4945.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.018658278074216383,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4950.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.018789597571991834,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4985.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 29.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4990.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 16.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4995.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 167.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 5000.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 4122.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 5005.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 9.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 5010.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 17.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4330.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 2.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4335.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 5.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4345.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 15.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4350.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 41.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4410.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.034886375596514085,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4415.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.033022538809504454,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4420.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": 0.031204150249905638,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4425.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.029430377334321633,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4430.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": 0.027700396086373757,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4435.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.026013391135876418,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4440.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.024368555721451912,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4445.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.022765091687546146,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4450.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.02120220948684448,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4455.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": 0.01967912817873696,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4460.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.01819507542901988,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4465.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.01674928751118898,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4470.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": 0.015341009306382603,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4475.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.013969494302585872,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4480.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": 0.012634004594389125,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4485.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": 0.011333810883883189,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4490.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.010068192481170968,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4495.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.00883643730186634,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4500.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.007637841869481576,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4505.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.006471711315427342,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4510.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": 0.005337359376866857,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4515.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.004234108399330694,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4520.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0031612893348409443,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4525.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.002118241742962823,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4530.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0011043137896109556,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4535.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.00011886224835677695,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4540.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.0008387474987614496,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4545.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.0017691414653739912,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4550.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0026729370559053223,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4555.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0035507430680041807,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4560.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.004403159692316194,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4565.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.005230778511943868,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4570.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.006034182504421892,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4575.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.006813946038164431,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4580.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.007570634875037285,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4585.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.008304806170514212,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4590.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.00901700847228426,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4595.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.009707781720251774,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4600.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.010377657248625383,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4605.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.011027157784084807,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4610.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.011656797444985045,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4615.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.012267081743303265,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4620.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.012858507585178813,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4625.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.01343156326649364,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4630.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.013986728479750354,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4635.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.014524474306711,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4640.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.015045263224791938,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4645.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.015549549103411664,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4650.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.01603777720347921,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4655.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.016510384180591586,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4660.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.01696779808185056,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4665.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.017410438348491653,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4670.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.01783871581366725,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4675.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.01825303270420875,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4680.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.01865378263829598,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4685.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.01904135062817147,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4690.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.019416113079572028,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4695.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.019778437788929182,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4700.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.02012868394774614,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4705.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.020467202138235052,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4710.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.020794334338745557,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4715.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.021110413915863546,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4720.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.02141576563329295,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4725.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.02171070564534716,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4730.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.021995541499592264,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4735.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0222705721368186,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4740.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.022536087890017598,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4745.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.022792370485944957,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4750.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.02303969304315956,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4755.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.02327832007398456,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4760.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.023508507482716823,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4765.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.023730502567531175,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4770.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.023944544018235092,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4775.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.024150861919366662,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4780.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.024349677746045018,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4785.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.02454120436783569,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4790.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.024725646046391603,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4795.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.024903198436902585,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4800.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.025074048586105846,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4805.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.025238374935213415,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4810.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.0253963473176384,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4815.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.025548126959563433,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4820.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.02569386647940064,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4825.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.02583370988935485,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4830.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.025967792594400407,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4835.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.026096241391627473,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4840.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.026219174471947326,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4845.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.02633670141833022,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4850.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.02644892320705594,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4855.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.02655593220731589,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4860.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.0266578121808152,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4865.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.026754638282653787,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4870.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.026846477059393692,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4875.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.026933386452071773,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4880.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.02701541579446598,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4885.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.027092605811873227,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4410.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 29.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4415.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 7.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4425.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 74.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4430.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 13.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4475.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.013230798904260155,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4480.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.010967862222969416,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4485.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.008743599689410075,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4490.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0065596766279441,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4495.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.004417668681639952,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4500.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.0023190617977206784,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4505.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": 0.00026525223199769243,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4510.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0017424534560177563,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4515.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0037028383989081703,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4520.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0056147754130506655,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4525.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.007477227014533128,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4530.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.009289245414720426,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4535.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.01104997250638462,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4540.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.012758639889170809,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4545.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.014414568841061737,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4550.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.016017170340319353,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4555.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.017565945057185672,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4560.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.019060483349107926,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4565.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.020500465271879875,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4570.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.021885660575094334,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4575.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0232159286889555,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4580.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.024491218747243693,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4585.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.025711569573672932,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4590.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.02687710968200463,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4595.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.027988057280595058,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4600.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.02904472026739313,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4605.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.03004749623528369,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4610.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.030996872471519055,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4615.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.03189342594566824,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4620.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.032737823334741734,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4625.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.033530820993291854,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4630.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.03427326497865124,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4635.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.03496609103387982,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4640.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.03561032460197566,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4645.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.03620708080984514,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4650.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.036757564480240035,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4655.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0372630701288017,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4660.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.03772498196315155,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4665.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0381447738859606,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4670.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.038524009484603994,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4675.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.03886434204650868,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4680.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.03916751454630685,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4685.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.039435359656408764,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4690.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.039669799734156186,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4695.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.03987284683660164,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4700.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.040046602710845036,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4705.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.04019325879312419,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4710.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.04031509621154328,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4715.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.04041448579300777,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4720.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.04049388805424314,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4725.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.04055585320031696,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4730.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.04060302112839054,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4735.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.040638121435563335,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4740.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.04066397340693584,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4745.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.04068348601663274,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4750.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.040699657932918853,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4755.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.04071557752217814,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4760.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.0407344228351576,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4765.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.040759461614925385,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4770.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.040794051309148927,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4775.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.04084163904281013,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4780.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.040905761638214244,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4785.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.040990045613625625,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4790.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.04109820717553703,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4795.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.04123405222594556,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4800.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.04140147635689573,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4805.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.04160446484934255,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4810.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.04184709268656661,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4815.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.04213352453530206,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4820.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0.0,
+      "vol_delta": -0.042468014754604155,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4825.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 0,
+      "vol_delta": -0.04285490740426212,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4835.0,
+      "from_snapshot": "20260821T232245Z",
+      "event_snapshot": "20260821T232745Z",
+      "oi_delta": 5.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
         "15": null,
         "30": null,
         "60": null
