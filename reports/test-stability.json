@@ -2,15 +2,15 @@
   "schema_version": "gold.test-stability.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-21T20:10:39.700549+00:00",
+  "generated_at_utc": "2026-08-21T20:15:47.974271+00:00",
   "method": {
     "test_split": "chronological final 30% of event snapshots",
-    "test_snapshots": 229,
+    "test_snapshots": 230,
     "lookahead_control": "only outcomes after event_snapshot are used",
     "multiple_testing": "all configured Series and horizons reported; no cherry-picking"
   },
   "test_overall": {
-    "events": 1615,
+    "events": 1616,
     "h5": {
       "n": 1606,
       "mean_future_delta": 0.22951432129505,
@@ -27,9 +27,9 @@
       "positive_fraction": 0.5209390862944162
     },
     "h60": {
-      "n": 1440,
-      "mean_future_delta": 26.72645833333332,
-      "positive_fraction": 0.9340277777777778
+      "n": 1441,
+      "mean_future_delta": 26.73185287994447,
+      "positive_fraction": 0.9340735600277585
     }
   },
   "test_by_series": [
@@ -155,7 +155,7 @@
     },
     {
       "series": "OGU6",
-      "events": 582,
+      "events": 583,
       "h5": {
         "n": 577,
         "mean_future_delta": 0.12599653379540693,
@@ -172,9 +172,9 @@
         "positive_fraction": 0.5531531531531532
       },
       "h60": {
-        "n": 517,
-        "mean_future_delta": 27.324951644100615,
-        "positive_fraction": 0.9245647969052224
+        "n": 518,
+        "mean_future_delta": 27.338803088803125,
+        "positive_fraction": 0.9247104247104247
       }
     }
   ],
@@ -205,7 +205,7 @@
     },
     {
       "date": "20260821",
-      "events": 1199,
+      "events": 1200,
       "h5": {
         "n": 1190,
         "mean_future_delta": -0.09008403361357592,
@@ -222,9 +222,9 @@
         "positive_fraction": 0.6379310344827587
       },
       "h60": {
-        "n": 1027,
-        "mean_future_delta": 31.31811100292107,
-        "positive_fraction": 0.9776046738072055
+        "n": 1028,
+        "mean_future_delta": 31.321206225680875,
+        "positive_fraction": 0.9776264591439688
       }
     }
   ],
@@ -250,7 +250,7 @@
     "60": {
       "series_with_same_sign": 6,
       "series_count": 6,
-      "aggregate_mean": 24.296742662618943,
+      "aggregate_mean": 24.29905123673603,
       "sign_definition": "positive/negative/zero; descriptive only"
     }
   },
