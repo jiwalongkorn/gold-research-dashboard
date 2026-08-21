@@ -2,11 +2,11 @@
   "schema_version": "gold.oos-validation.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-21T14:46:09.578834+00:00",
+  "generated_at_utc": "2026-08-21T14:51:33.543148+00:00",
   "method": {
     "split": "chronological 70/30 by event snapshot",
     "train_snapshots": 501,
-    "test_snapshots": 215,
+    "test_snapshots": 216,
     "lookahead_control": "events are assigned by event_snapshot; outcomes are only read at later stored snapshots",
     "selection": "no threshold or parameter selected from test set"
   },
@@ -34,26 +34,26 @@
     }
   },
   "test": {
-    "events": 1697,
+    "events": 1701,
     "h5": {
-      "n": 1675,
-      "mean_future_delta": 1.0401791044775155,
-      "positive_fraction": 0.33791044776119405
+      "n": 1678,
+      "mean_future_delta": 1.0457091775922764,
+      "positive_fraction": 0.3390941597139452
     },
     "h15": {
-      "n": 1637,
-      "mean_future_delta": 2.2254734270005443,
-      "positive_fraction": 0.3414783139890043
+      "n": 1640,
+      "mean_future_delta": 2.2320121951218854,
+      "positive_fraction": 0.3426829268292683
     },
     "h30": {
-      "n": 1583,
-      "mean_future_delta": 7.748515476942441,
-      "positive_fraction": 0.5009475679090335
+      "n": 1587,
+      "mean_future_delta": 7.714366729678567,
+      "positive_fraction": 0.49968494013862635
     },
     "h60": {
-      "n": 1459,
-      "mean_future_delta": 24.01850582590811,
-      "positive_fraction": 0.858122001370802
+      "n": 1463,
+      "mean_future_delta": 23.97238550922757,
+      "positive_fraction": 0.8585099111414901
     }
   },
   "limitations": [
