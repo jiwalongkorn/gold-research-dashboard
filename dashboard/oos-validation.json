@@ -2,58 +2,58 @@
   "schema_version": "gold.oos-validation.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-21T11:28:34.414521+00:00",
+  "generated_at_utc": "2026-08-21T11:33:41.766967+00:00",
   "method": {
     "split": "chronological 70/30 by event snapshot",
-    "train_snapshots": 475,
+    "train_snapshots": 476,
     "test_snapshots": 205,
     "lookahead_control": "events are assigned by event_snapshot; outcomes are only read at later stored snapshots",
     "selection": "no threshold or parameter selected from test set"
   },
   "train": {
-    "events": 3629,
+    "events": 3631,
     "h5": {
-      "n": 3578,
-      "mean_future_delta": 4.130939072107319,
-      "positive_fraction": 0.40637227501397427
+      "n": 3580,
+      "mean_future_delta": 4.125921787709494,
+      "positive_fraction": 0.40614525139664803
     },
     "h15": {
-      "n": 3543,
-      "mean_future_delta": 4.327575500987809,
-      "positive_fraction": 0.36889641546711827
+      "n": 3545,
+      "mean_future_delta": 4.331396332863133,
+      "positive_fraction": 0.3692524682651622
     },
     "h30": {
-      "n": 3543,
-      "mean_future_delta": 6.776771097939594,
-      "positive_fraction": 0.39796782387806945
+      "n": 3545,
+      "mean_future_delta": 6.780507757404791,
+      "positive_fraction": 0.3980253878702398
     },
     "h60": {
-      "n": 3526,
-      "mean_future_delta": 9.933352240499215,
-      "positive_fraction": 0.4758933635847986
+      "n": 3528,
+      "mean_future_delta": 9.947052154195076,
+      "positive_fraction": 0.47619047619047616
     }
   },
   "test": {
-    "events": 1904,
+    "events": 1907,
     "h5": {
       "n": 1891,
-      "mean_future_delta": 2.5477525118984103,
-      "positive_fraction": 0.4114225277630883
+      "mean_future_delta": 2.5644103648862475,
+      "positive_fraction": 0.41248016922263353
     },
     "h15": {
-      "n": 1855,
-      "mean_future_delta": 5.270134770889444,
-      "positive_fraction": 0.41671159029649596
+      "n": 1856,
+      "mean_future_delta": 5.281034482758576,
+      "positive_fraction": 0.4170258620689655
     },
     "h30": {
-      "n": 1780,
-      "mean_future_delta": 17.86443820224712,
-      "positive_fraction": 0.5960674157303371
+      "n": 1778,
+      "mean_future_delta": 17.869460067491488,
+      "positive_fraction": 0.5961754780652418
     },
     "h60": {
-      "n": 1685,
-      "mean_future_delta": 29.441246290801143,
-      "positive_fraction": 0.8759643916913946
+      "n": 1686,
+      "mean_future_delta": 29.471411625148235,
+      "positive_fraction": 0.8760379596678529
     }
   },
   "limitations": [
