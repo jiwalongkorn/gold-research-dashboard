@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-21T20:51:24.502525+00:00",
+  "generated_at_utc": "2026-08-21T20:56:23.475551+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 1184,
+    "snapshots": 1185,
     "first": "20260817T054625Z",
-    "last": "20260821T205054Z"
+    "last": "20260821T205555Z"
   },
   "summary": [
     {
@@ -88,9 +88,9 @@
     {
       "series": "G4MQ6",
       "events": 648,
-      "h5_n": 646,
-      "h5_mean_future_delta": 3.881114551083605,
-      "h5_positive_fraction": 0.4148606811145511,
+      "h5_n": 647,
+      "h5_mean_future_delta": 3.8706336939721937,
+      "h5_positive_fraction": 0.4142194744976816,
       "h15_n": 643,
       "h15_mean_future_delta": 5.495023328149295,
       "h15_positive_fraction": 0.3965785381026439,
@@ -145,25 +145,25 @@
       "h30_n": 1275,
       "h30_mean_future_delta": 10.159764705882338,
       "h30_positive_fraction": 0.5050980392156863,
-      "h60_n": 1215,
-      "h60_mean_future_delta": 19.375226337448535,
-      "h60_positive_fraction": 0.6814814814814815
+      "h60_n": 1217,
+      "h60_mean_future_delta": 19.351437962202112,
+      "h60_positive_fraction": 0.6820049301561216
     },
     {
       "series": "OGU6",
       "events": 1084,
-      "h5_n": 1081,
-      "h5_mean_future_delta": -4.3378353376504455,
-      "h5_positive_fraction": 0.27752081406105455,
-      "h15_n": 1069,
-      "h15_mean_future_delta": -3.461927034611883,
-      "h15_positive_fraction": 0.3030869971936389,
+      "h5_n": 1083,
+      "h5_mean_future_delta": -4.335180055401783,
+      "h5_positive_fraction": 0.2770083102493075,
+      "h15_n": 1071,
+      "h15_mean_future_delta": -3.4702147525677893,
+      "h15_positive_fraction": 0.3025210084033613,
       "h30_n": 1061,
       "h30_mean_future_delta": 3.006503298774695,
       "h30_positive_fraction": 0.3826578699340245,
-      "h60_n": 1027,
-      "h60_mean_future_delta": 10.214605647517015,
-      "h60_positive_fraction": 0.6066212268743915
+      "h60_n": 1028,
+      "h60_mean_future_delta": 10.210116731517484,
+      "h60_positive_fraction": 0.6070038910505836
     }
   ],
   "events": [
@@ -80202,7 +80202,7 @@
         "5": 9.199999999999818,
         "15": 18.600000000000364,
         "30": 21.900000000000546,
-        "60": null
+        "60": 4.900000000000546
       }
     },
     {
@@ -80216,7 +80216,7 @@
         "5": 9.199999999999818,
         "15": 18.600000000000364,
         "30": 21.900000000000546,
-        "60": null
+        "60": 4.900000000000546
       }
     },
     {
@@ -80230,7 +80230,7 @@
         "5": 9.899999999999636,
         "15": 19.300000000000182,
         "30": 22.600000000000364,
-        "60": null
+        "60": 5.600000000000364
       }
     },
     {
@@ -81908,7 +81908,7 @@
       "vol_delta": null,
       "future_outcome": {
         "5": 4.300000000000182,
-        "15": null,
+        "15": -7.899999999999636,
         "30": null,
         "60": null
       }
@@ -81922,7 +81922,7 @@
       "vol_delta": null,
       "future_outcome": {
         "5": 4.300000000000182,
-        "15": null,
+        "15": -7.899999999999636,
         "30": null,
         "60": null
       }
@@ -82145,7 +82145,7 @@
       "oi_delta": 4092.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": -2.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -82159,7 +82159,7 @@
       "oi_delta": -4122.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": -2.899999999999636,
         "15": null,
         "30": null,
         "60": null
@@ -82173,7 +82173,7 @@
       "oi_delta": 3.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": -2.899999999999636,
         "15": null,
         "30": null,
         "60": null
