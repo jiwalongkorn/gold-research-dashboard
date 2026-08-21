@@ -2,7 +2,7 @@
   "schema_version": "gold.test-stability.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-21T19:54:48.414554+00:00",
+  "generated_at_utc": "2026-08-21T19:59:47.865916+00:00",
   "method": {
     "test_split": "chronological final 30% of event snapshots",
     "test_snapshots": 229,
@@ -10,51 +10,51 @@
     "multiple_testing": "all configured Series and horizons reported; no cherry-picking"
   },
   "test_overall": {
-    "events": 1617,
+    "events": 1616,
     "h5": {
-      "n": 1611,
-      "mean_future_delta": 0.21992551210419115,
-      "positive_fraction": 0.308504034761018
+      "n": 1608,
+      "mean_future_delta": 0.21343283582080377,
+      "positive_fraction": 0.3072139303482587
     },
     "h15": {
-      "n": 1604,
-      "mean_future_delta": 3.057481296758036,
-      "positive_fraction": 0.38840399002493764
+      "n": 1603,
+      "mean_future_delta": 3.0417342482843988,
+      "positive_fraction": 0.3880224578914535
     },
     "h30": {
-      "n": 1537,
-      "mean_future_delta": 10.149446974625835,
-      "positive_fraction": 0.5400130123617437
+      "n": 1538,
+      "mean_future_delta": 10.088686605981735,
+      "positive_fraction": 0.5377113133940182
     },
     "h60": {
-      "n": 1435,
-      "mean_future_delta": 26.559303135888488,
-      "positive_fraction": 0.9337979094076655
+      "n": 1436,
+      "mean_future_delta": 26.593871866295252,
+      "positive_fraction": 0.9338440111420613
     }
   },
   "test_by_series": [
     {
       "series": "G3RQ6",
-      "events": 51,
+      "events": 49,
       "h5": {
-        "n": 51,
-        "mean_future_delta": 6.488235294117693,
-        "positive_fraction": 0.8823529411764706
+        "n": 49,
+        "mean_future_delta": 6.6020408163265865,
+        "positive_fraction": 0.8775510204081632
       },
       "h15": {
-        "n": 51,
-        "mean_future_delta": 9.141176470588036,
-        "positive_fraction": 0.9607843137254902
+        "n": 49,
+        "mean_future_delta": 9.118367346938575,
+        "positive_fraction": 0.9591836734693877
       },
       "h30": {
-        "n": 51,
-        "mean_future_delta": 17.801960784313504,
-        "positive_fraction": 0.9215686274509803
+        "n": 49,
+        "mean_future_delta": 17.83469387755079,
+        "positive_fraction": 0.9183673469387755
       },
       "h60": {
-        "n": 48,
-        "mean_future_delta": 8.558333333332863,
-        "positive_fraction": 0.9583333333333334
+        "n": 46,
+        "mean_future_delta": 8.478260869564743,
+        "positive_fraction": 0.9565217391304348
       }
     },
     {
@@ -119,9 +119,9 @@
         "positive_fraction": 0.10194174757281553
       },
       "h30": {
-        "n": 201,
-        "mean_future_delta": 6.932338308457606,
-        "positive_fraction": 0.38308457711442784
+        "n": 202,
+        "mean_future_delta": 6.857425742574153,
+        "positive_fraction": 0.3811881188118812
       },
       "h60": {
         "n": 197,
@@ -131,100 +131,100 @@
     },
     {
       "series": "OG3Q6",
-      "events": 446,
+      "events": 445,
       "h5": {
-        "n": 446,
-        "mean_future_delta": 0.5827354260089229,
-        "positive_fraction": 0.3834080717488789
+        "n": 445,
+        "mean_future_delta": 0.5757303370786063,
+        "positive_fraction": 0.38202247191011235
       },
       "h15": {
-        "n": 446,
-        "mean_future_delta": 3.7941704035874233,
-        "positive_fraction": 0.5515695067264574
+        "n": 445,
+        "mean_future_delta": 3.780898876404474,
+        "positive_fraction": 0.550561797752809
       },
       "h30": {
         "n": 407,
-        "mean_future_delta": 10.19828009828009,
-        "positive_fraction": 0.5798525798525799
+        "mean_future_delta": 10.135626535626528,
+        "positive_fraction": 0.5773955773955773
       },
       "h60": {
         "n": 368,
-        "mean_future_delta": 25.680978260869487,
+        "mean_future_delta": 25.724456521739054,
         "positive_fraction": 0.8940217391304348
       }
     },
     {
       "series": "OGU6",
-      "events": 579,
+      "events": 581,
       "h5": {
         "n": 575,
         "mean_future_delta": 0.10382608695643443,
         "positive_fraction": 0.32869565217391306
       },
       "h15": {
-        "n": 569,
-        "mean_future_delta": 3.170650263620325,
-        "positive_fraction": 0.39015817223198596
+        "n": 571,
+        "mean_future_delta": 3.160945709281902,
+        "positive_fraction": 0.3922942206654991
       },
       "h30": {
-        "n": 551,
-        "mean_future_delta": 10.63702359346636,
-        "positive_fraction": 0.5607985480943739
+        "n": 553,
+        "mean_future_delta": 10.570343580470102,
+        "positive_fraction": 0.5587703435804702
       },
       "h60": {
-        "n": 512,
-        "mean_future_delta": 27.196484375000033,
-        "positive_fraction": 0.923828125
+        "n": 515,
+        "mean_future_delta": 27.195339805825274,
+        "positive_fraction": 0.9242718446601942
       }
     }
   ],
   "test_by_day": [
     {
       "date": "20260820",
-      "events": 425,
+      "events": 422,
       "h5": {
-        "n": 425,
-        "mean_future_delta": 1.1000000000000172,
-        "positive_fraction": 0.26823529411764707
+        "n": 422,
+        "mean_future_delta": 1.0815165876777437,
+        "positive_fraction": 0.26303317535545023
       },
       "h15": {
-        "n": 425,
-        "mean_future_delta": 1.6138823529411392,
-        "positive_fraction": 0.2611764705882353
+        "n": 422,
+        "mean_future_delta": 1.5563981042653667,
+        "positive_fraction": 0.2559241706161137
       },
       "h30": {
-        "n": 425,
-        "mean_future_delta": 2.1623529411763958,
-        "positive_fraction": 0.21176470588235294
+        "n": 422,
+        "mean_future_delta": 2.0568720379146166,
+        "positive_fraction": 0.20616113744075829
       },
       "h60": {
-        "n": 422,
-        "mean_future_delta": 15.14644549763043,
-        "positive_fraction": 0.8293838862559242
+        "n": 419,
+        "mean_future_delta": 15.180429594272177,
+        "positive_fraction": 0.8281622911694511
       }
     },
     {
       "date": "20260821",
-      "events": 1192,
+      "events": 1194,
       "h5": {
         "n": 1186,
         "mean_future_delta": -0.09544688026994548,
         "positive_fraction": 0.32293423271500843
       },
       "h15": {
-        "n": 1179,
-        "mean_future_delta": 3.5778625954197674,
-        "positive_fraction": 0.4342663273960984
+        "n": 1181,
+        "mean_future_delta": 3.572480948348778,
+        "positive_fraction": 0.43522438611346315
       },
       "h30": {
-        "n": 1112,
-        "mean_future_delta": 13.202068345323687,
-        "positive_fraction": 0.6654676258992805
+        "n": 1116,
+        "mean_future_delta": 13.125806451612851,
+        "positive_fraction": 0.6630824372759857
       },
       "h60": {
-        "n": 1013,
-        "mean_future_delta": 31.313721618953544,
-        "positive_fraction": 0.9772951628825272
+        "n": 1017,
+        "mean_future_delta": 31.296165191740354,
+        "positive_fraction": 0.9773844641101278
       }
     }
   ],
@@ -232,25 +232,25 @@
     "5": {
       "series_with_same_sign": 3,
       "series_count": 6,
-      "aggregate_mean": 0.8950644969948713,
+      "aggregate_mean": 0.9128645692079674,
       "sign_definition": "positive/negative/zero; descriptive only"
     },
     "15": {
       "series_with_same_sign": 6,
       "series_count": 6,
-      "aggregate_mean": 3.483665056081193,
+      "aggregate_mean": 3.476034188552721,
       "sign_definition": "positive/negative/zero; descriptive only"
     },
     "30": {
       "series_with_same_sign": 6,
       "series_count": 6,
-      "aggregate_mean": 10.70535989750084,
+      "aggregate_mean": 10.67677438945151,
       "sign_definition": "positive/negative/zero; descriptive only"
     },
     "60": {
       "series_with_same_sign": 6,
       "series_count": 6,
-      "aggregate_mean": 24.211942876852522,
+      "aggregate_mean": 24.20565308150697,
       "sign_definition": "positive/negative/zero; descriptive only"
     }
   },
