@@ -2,11 +2,11 @@
   "schema_version": "gold.oos-validation.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-21T22:03:59.868148+00:00",
+  "generated_at_utc": "2026-08-21T22:09:27.397131+00:00",
   "method": {
     "split": "chronological 70/30 by event snapshot",
     "train_snapshots": 539,
-    "test_snapshots": 231,
+    "test_snapshots": 232,
     "lookahead_control": "events are assigned by event_snapshot; outcomes are only read at later stored snapshots",
     "selection": "no threshold or parameter selected from test set"
   },
@@ -34,7 +34,7 @@
     }
   },
   "test": {
-    "events": 1615,
+    "events": 1616,
     "h5": {
       "n": 1615,
       "mean_future_delta": 0.14092879256956786,
@@ -51,9 +51,9 @@
       "positive_fraction": 0.5081863979848866
     },
     "h60": {
-      "n": 1495,
-      "mean_future_delta": 25.960735785953176,
-      "positive_fraction": 0.9183946488294314
+      "n": 1499,
+      "mean_future_delta": 25.845296864576387,
+      "positive_fraction": 0.9159439626417611
     }
   },
   "limitations": [
