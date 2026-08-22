@@ -2,19 +2,19 @@
   "schema_version": "gold.test-stability.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-22T00:25:18.905319+00:00",
+  "generated_at_utc": "2026-08-22T00:30:31.449375+00:00",
   "method": {
     "test_split": "chronological final 30% of event snapshots",
-    "test_snapshots": 232,
+    "test_snapshots": 233,
     "lookahead_control": "only outcomes after event_snapshot are used",
     "multiple_testing": "all configured Series and horizons reported; no cherry-picking"
   },
   "test_overall": {
-    "events": 1995,
+    "events": 1996,
     "h5": {
-      "n": 1955,
-      "mean_future_delta": -0.03994884910493489,
-      "positive_fraction": 0.23120204603580563
+      "n": 1995,
+      "mean_future_delta": -0.0391478696742595,
+      "positive_fraction": 0.22656641604010025
     },
     "h15": {
       "n": 1582,
@@ -107,7 +107,7 @@
     },
     {
       "series": "G4TQ6",
-      "events": 308,
+      "events": 309,
       "h5": {
         "n": 308,
         "mean_future_delta": -0.7068181818182875,
@@ -157,9 +157,9 @@
       "series": "OG4Q6",
       "events": 40,
       "h5": {
-        "n": 0,
-        "mean_future_delta": null,
-        "positive_fraction": null
+        "n": 40,
+        "mean_future_delta": 0.0,
+        "positive_fraction": 0.0
       },
       "h15": {
         "n": 0,
@@ -253,11 +253,11 @@
     },
     {
       "date": "20260822",
-      "events": 40,
+      "events": 41,
       "h5": {
-        "n": 0,
-        "mean_future_delta": null,
-        "positive_fraction": null
+        "n": 40,
+        "mean_future_delta": 0.0,
+        "positive_fraction": 0.0
       },
       "h15": {
         "n": 0,
@@ -279,8 +279,8 @@
   "cross_series_consistency": {
     "5": {
       "series_with_same_sign": 4,
-      "series_count": 6,
-      "aggregate_mean": -0.039839878861079314,
+      "series_count": 7,
+      "aggregate_mean": -0.03414846759521084,
       "sign_definition": "positive/negative/zero; descriptive only"
     },
     "15": {
