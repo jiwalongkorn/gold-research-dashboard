@@ -2,24 +2,24 @@
   "schema_version": "gold.test-stability.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-22T17:23:40.035516+00:00",
+  "generated_at_utc": "2026-08-22T17:28:42.430809+00:00",
   "method": {
     "test_split": "chronological final 30% of event snapshots",
-    "test_snapshots": 239,
+    "test_snapshots": 240,
     "lookahead_control": "only outcomes after event_snapshot are used",
     "multiple_testing": "all configured Series and horizons reported; no cherry-picking"
   },
   "test_overall": {
-    "events": 2295,
+    "events": 2296,
     "h5": {
       "n": 2295,
       "mean_future_delta": -0.10052287581705838,
       "positive_fraction": 0.1786492374727669
     },
     "h15": {
-      "n": 2261,
-      "mean_future_delta": 1.969128704113184,
-      "positive_fraction": 0.24944714727996462
+      "n": 2262,
+      "mean_future_delta": 1.9682581786029658,
+      "positive_fraction": 0.2493368700265252
     },
     "h30": {
       "n": 2260,
@@ -66,9 +66,9 @@
         "positive_fraction": 0.1288056206088993
       },
       "h15": {
-        "n": 426,
-        "mean_future_delta": 1.639906103286326,
-        "positive_fraction": 0.1619718309859155
+        "n": 427,
+        "mean_future_delta": 1.636065573770433,
+        "positive_fraction": 0.16159250585480095
       },
       "h30": {
         "n": 426,
@@ -155,7 +155,7 @@
     },
     {
       "series": "OG4Q6",
-      "events": 71,
+      "events": 72,
       "h5": {
         "n": 71,
         "mean_future_delta": 0.0,
@@ -253,16 +253,16 @@
     },
     {
       "date": "20260822",
-      "events": 393,
+      "events": 394,
       "h5": {
         "n": 393,
         "mean_future_delta": 0.04834605597964377,
         "positive_fraction": 0.002544529262086514
       },
       "h15": {
-        "n": 389,
-        "mean_future_delta": 2.0025706940874035,
-        "positive_fraction": 0.10539845758354756
+        "n": 390,
+        "mean_future_delta": 1.9974358974358974,
+        "positive_fraction": 0.10512820512820513
       },
       "h30": {
         "n": 388,
@@ -286,7 +286,7 @@
     "15": {
       "series_with_same_sign": 6,
       "series_count": 7,
-      "aggregate_mean": 2.585667835475395,
+      "aggregate_mean": 2.585119188401696,
       "sign_definition": "positive/negative/zero; descriptive only"
     },
     "30": {
