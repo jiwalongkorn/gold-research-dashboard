@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-22T20:01:34.538546+00:00",
+  "generated_at_utc": "2026-08-22T20:06:35.474248+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 1450,
+    "snapshots": 1451,
     "first": "20260817T054625Z",
-    "last": "20260822T200105Z"
+    "last": "20260822T200605Z"
   },
   "summary": [
     {
@@ -91,9 +91,9 @@
       "h5_n": 812,
       "h5_mean_future_delta": 3.074630541871934,
       "h5_positive_fraction": 0.33004926108374383,
-      "h15_n": 811,
-      "h15_mean_future_delta": 4.2853267570900115,
-      "h15_positive_fraction": 0.31442663378545005,
+      "h15_n": 812,
+      "h15_mean_future_delta": 4.280049261083743,
+      "h15_positive_fraction": 0.31403940886699505,
       "h30_n": 811,
       "h30_mean_future_delta": 16.014426633785487,
       "h30_positive_fraction": 0.5203452527743526,
@@ -158,9 +158,9 @@
       "h15_n": 72,
       "h15_mean_future_delta": 10.555555555555555,
       "h15_positive_fraction": 0.5555555555555556,
-      "h30_n": 71,
-      "h30_mean_future_delta": 10.704225352112676,
-      "h30_positive_fraction": 0.5633802816901409,
+      "h30_n": 72,
+      "h30_mean_future_delta": 10.555555555555555,
+      "h30_positive_fraction": 0.5555555555555556,
       "h60_n": 71,
       "h60_mean_future_delta": 10.704225352112676,
       "h60_positive_fraction": 0.5633802816901409
@@ -93041,7 +93041,7 @@
       "future_outcome": {
         "5": 0.0,
         "15": 0.0,
-        "30": null,
+        "30": 0.0,
         "60": null
       }
     },
@@ -93068,7 +93068,7 @@
       "vol_delta": null,
       "future_outcome": {
         "5": 0.0,
-        "15": null,
+        "15": 0.0,
         "30": null,
         "60": null
       }
