@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-22T22:00:45.804190+00:00",
+  "generated_at_utc": "2026-08-22T22:06:32.859587+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 1473,
+    "snapshots": 1474,
     "first": "20260817T054625Z",
-    "last": "20260822T220015Z"
+    "last": "20260822T220602Z"
   },
   "summary": [
     {
@@ -87,7 +87,7 @@
     },
     {
       "series": "G4MQ6",
-      "events": 814,
+      "events": 815,
       "h5_n": 814,
       "h5_mean_future_delta": 3.0670761670761797,
       "h5_positive_fraction": 0.32923832923832924,
@@ -171,12 +171,12 @@
       "h5_n": 1359,
       "h5_mean_future_delta": -3.461883738042774,
       "h5_positive_fraction": 0.22075055187637968,
-      "h15_n": 1358,
-      "h15_mean_future_delta": -2.8574374079529448,
-      "h15_positive_fraction": 0.23858615611192932,
-      "h30_n": 1357,
-      "h30_mean_future_delta": 3.9277081798083704,
-      "h30_positive_fraction": 0.39572586588061903,
+      "h15_n": 1359,
+      "h15_mean_future_delta": -2.8553348050037517,
+      "h15_positive_fraction": 0.23841059602649006,
+      "h30_n": 1358,
+      "h30_mean_future_delta": 3.9248159057437104,
+      "h30_positive_fraction": 0.3954344624447717,
       "h60_n": 1356,
       "h60_mean_future_delta": 9.159808259587017,
       "h60_positive_fraction": 0.5685840707964602
@@ -93097,7 +93097,7 @@
       "future_outcome": {
         "5": 0.0,
         "15": 0.0,
-        "30": null,
+        "30": 0.0,
         "60": null
       }
     },
@@ -93124,7 +93124,7 @@
       "vol_delta": null,
       "future_outcome": {
         "5": 0.0,
-        "15": null,
+        "15": 0.0,
         "30": null,
         "60": null
       }
@@ -93149,6 +93149,20 @@
       "from_snapshot": "20260822T215012Z",
       "event_snapshot": "20260822T215514Z",
       "oi_delta": -6.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4830.0,
+      "from_snapshot": "20260822T220015Z",
+      "event_snapshot": "20260822T220602Z",
+      "oi_delta": -2.0,
       "vol_delta": null,
       "future_outcome": {
         "5": null,
