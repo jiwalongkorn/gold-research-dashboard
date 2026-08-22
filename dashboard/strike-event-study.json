@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-22T10:20:05.781947+00:00",
+  "generated_at_utc": "2026-08-22T10:25:23.324816+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 1340,
+    "snapshots": 1341,
     "first": "20260817T054625Z",
-    "last": "20260822T101935Z"
+    "last": "20260822T102452Z"
   },
   "summary": [
     {
@@ -126,9 +126,9 @@
       "h15_n": 592,
       "h15_mean_future_delta": 4.669087837837762,
       "h15_positive_fraction": 0.22972972972972974,
-      "h30_n": 591,
-      "h30_mean_future_delta": 15.720812182741074,
-      "h30_positive_fraction": 0.49238578680203043,
+      "h30_n": 592,
+      "h30_mean_future_delta": 15.694256756756714,
+      "h30_positive_fraction": 0.49155405405405406,
       "h60_n": 591,
       "h60_mean_future_delta": 22.014720812182787,
       "h60_positive_fraction": 0.7461928934010152
@@ -167,7 +167,7 @@
     },
     {
       "series": "OGU6",
-      "events": 1351,
+      "events": 1352,
       "h5_n": 1350,
       "h5_mean_future_delta": -3.484962962963059,
       "h5_positive_fraction": 0.2222222222222222,
@@ -92831,7 +92831,7 @@
       "future_outcome": {
         "5": 0.0,
         "15": 0.0,
-        "30": null,
+        "30": 0.0,
         "60": null
       }
     },
@@ -92855,6 +92855,20 @@
       "from_snapshot": "20260822T100902Z",
       "event_snapshot": "20260822T101405Z",
       "oi_delta": -7.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 4300.0,
+      "from_snapshot": "20260822T101935Z",
+      "event_snapshot": "20260822T102452Z",
+      "oi_delta": -4185.0,
       "vol_delta": null,
       "future_outcome": {
         "5": null,
