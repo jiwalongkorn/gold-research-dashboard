@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-22T07:25:14.821926+00:00",
+  "generated_at_utc": "2026-08-22T07:30:34.595257+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 1306,
+    "snapshots": 1307,
     "first": "20260817T054625Z",
-    "last": "20260822T072445Z"
+    "last": "20260822T073005Z"
   },
   "summary": [
     {
@@ -167,7 +167,7 @@
     },
     {
       "series": "OGU6",
-      "events": 1349,
+      "events": 1350,
       "h5_n": 1348,
       "h5_mean_future_delta": -3.4901335311573662,
       "h5_positive_fraction": 0.22255192878338279,
@@ -92799,6 +92799,20 @@
       "from_snapshot": "20260822T071439Z",
       "event_snapshot": "20260822T071945Z",
       "oi_delta": -212.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 5020.0,
+      "from_snapshot": "20260822T072445Z",
+      "event_snapshot": "20260822T073005Z",
+      "oi_delta": -12.0,
       "vol_delta": null,
       "future_outcome": {
         "5": null,
