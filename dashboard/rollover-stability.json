@@ -2,7 +2,7 @@
   "schema_version": "gold.rollover-stability.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-21T23:59:10.087503+00:00",
+  "generated_at_utc": "2026-08-22T00:04:28.817977+00:00",
   "method": {
     "test_split": "chronological final 30%",
     "rollover_policy": "reports contract generation and series separately; no cross-generation aggregate",
@@ -176,33 +176,66 @@
       "series": "OG3Q6"
     },
     {
-      "events": 718,
+      "events": 40,
       "h5": {
-        "n": 718,
-        "mean_future_delta": 0.005849582172633295,
+        "n": 0,
+        "mean_future_delta": null,
         "mean_future_pct": null,
-        "positive_fraction": 0.26323119777158777,
+        "positive_fraction": null,
+        "eligible": false
+      },
+      "h15": {
+        "n": 0,
+        "mean_future_delta": null,
+        "mean_future_pct": null,
+        "positive_fraction": null,
+        "eligible": false
+      },
+      "h30": {
+        "n": 0,
+        "mean_future_delta": null,
+        "mean_future_pct": null,
+        "positive_fraction": null,
+        "eligible": false
+      },
+      "h60": {
+        "n": 0,
+        "mean_future_delta": null,
+        "mean_future_pct": null,
+        "positive_fraction": null,
+        "eligible": false
+      },
+      "generation": "OG",
+      "series": "OG4Q6"
+    },
+    {
+      "events": 717,
+      "h5": {
+        "n": 717,
+        "mean_future_delta": -0.00627615062768356,
+        "mean_future_pct": null,
+        "positive_fraction": 0.26220362622036264,
         "eligible": true
       },
       "h15": {
-        "n": 587,
-        "mean_future_delta": 2.620102214650717,
+        "n": 586,
+        "mean_future_delta": 2.6080204778156504,
         "mean_future_pct": null,
-        "positive_fraction": 0.37137989778534924,
+        "positive_fraction": 0.3703071672354949,
         "eligible": true
       },
       "h30": {
-        "n": 587,
-        "mean_future_delta": 9.014480408858557,
+        "n": 586,
+        "mean_future_delta": 9.003924914675721,
         "mean_future_pct": null,
-        "positive_fraction": 0.5161839863713799,
+        "positive_fraction": 0.515358361774744,
         "eligible": true
       },
       "h60": {
-        "n": 565,
-        "mean_future_delta": 24.385840707964665,
+        "n": 564,
+        "mean_future_delta": 24.416489361702194,
         "mean_future_pct": null,
-        "positive_fraction": 0.8654867256637168,
+        "positive_fraction": 0.8652482269503546,
         "eligible": true
       },
       "generation": "OG",
