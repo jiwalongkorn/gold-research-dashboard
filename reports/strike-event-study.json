@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-22T01:57:27.315293+00:00",
+  "generated_at_utc": "2026-08-22T02:02:34.792120+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 1242,
+    "snapshots": 1243,
     "first": "20260817T054625Z",
-    "last": "20260822T015658Z"
+    "last": "20260822T020205Z"
   },
   "summary": [
     {
@@ -87,7 +87,7 @@
     },
     {
       "series": "G4MQ6",
-      "events": 730,
+      "events": 731,
       "h5_n": 730,
       "h5_mean_future_delta": 3.420000000000014,
       "h5_positive_fraction": 0.36712328767123287,
@@ -167,7 +167,7 @@
     },
     {
       "series": "OGU6",
-      "events": 1226,
+      "events": 1227,
       "h5_n": 1226,
       "h5_mean_future_delta": -3.8374388254487193,
       "h5_positive_fraction": 0.24469820554649266,
@@ -88333,6 +88333,34 @@
       "from_snapshot": "20260822T014635Z",
       "event_snapshot": "20260822T015137Z",
       "oi_delta": -41.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "OGU6",
+      "strike": 5030.0,
+      "from_snapshot": "20260822T015658Z",
+      "event_snapshot": "20260822T020205Z",
+      "oi_delta": -11.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4430.0,
+      "from_snapshot": "20260822T015658Z",
+      "event_snapshot": "20260822T020205Z",
+      "oi_delta": -13.0,
       "vol_delta": null,
       "future_outcome": {
         "5": null,
