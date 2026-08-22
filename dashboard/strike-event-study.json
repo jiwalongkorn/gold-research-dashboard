@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-22T07:50:54.965439+00:00",
+  "generated_at_utc": "2026-08-22T07:56:08.963086+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 1311,
+    "snapshots": 1312,
     "first": "20260817T054625Z",
-    "last": "20260822T075025Z"
+    "last": "20260822T075539Z"
   },
   "summary": [
     {
@@ -87,7 +87,7 @@
     },
     {
       "series": "G4MQ6",
-      "events": 806,
+      "events": 807,
       "h5_n": 806,
       "h5_mean_future_delta": 3.097518610421849,
       "h5_positive_fraction": 0.3325062034739454,
@@ -168,9 +168,9 @@
     {
       "series": "OGU6",
       "events": 1350,
-      "h5_n": 1349,
-      "h5_mean_future_delta": -3.4875463306153667,
-      "h5_positive_fraction": 0.2223869532987398,
+      "h5_n": 1350,
+      "h5_mean_future_delta": -3.484962962963059,
+      "h5_positive_fraction": 0.2222222222222222,
       "h15_n": 1348,
       "h15_mean_future_delta": -2.8786350148368687,
       "h15_positive_fraction": 0.2403560830860534,
@@ -92815,7 +92815,7 @@
       "oi_delta": -12.0,
       "vol_delta": null,
       "future_outcome": {
-        "5": null,
+        "5": 0.0,
         "15": null,
         "30": null,
         "60": null
@@ -92827,6 +92827,20 @@
       "from_snapshot": "20260822T074520Z",
       "event_snapshot": "20260822T075025Z",
       "oi_delta": -5.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4MQ6",
+      "strike": 4440.0,
+      "from_snapshot": "20260822T075025Z",
+      "event_snapshot": "20260822T075539Z",
+      "oi_delta": -15.0,
       "vol_delta": null,
       "future_outcome": {
         "5": null,
