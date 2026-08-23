@@ -2,7 +2,7 @@
   "schema_version": "gold.strike-event-study.v1",
   "status": "research_only",
   "approval_required": true,
-  "generated_at_utc": "2026-08-23T00:27:54.745938+00:00",
+  "generated_at_utc": "2026-08-23T00:32:56.583760+00:00",
   "contract": {
     "event": "non-zero strike-level OI delta or volatility delta",
     "outcomes": "future-price delta after 5/15/30/60 minutes of stored snapshots",
@@ -16,9 +16,9 @@
     ]
   },
   "coverage": {
-    "snapshots": 1501,
+    "snapshots": 1502,
     "first": "20260817T054625Z",
-    "last": "20260823T002724Z"
+    "last": "20260823T003226Z"
   },
   "summary": [
     {
@@ -119,16 +119,16 @@
     },
     {
       "series": "G4TQ6",
-      "events": 597,
+      "events": 598,
       "h5_n": 597,
       "h5_mean_future_delta": 3.351591289782218,
       "h5_positive_fraction": 0.22278056951423786,
       "h15_n": 597,
       "h15_mean_future_delta": 4.629983249581164,
       "h15_positive_fraction": 0.22780569514237856,
-      "h30_n": 596,
-      "h30_mean_future_delta": 15.588926174496601,
-      "h30_positive_fraction": 0.48825503355704697,
+      "h30_n": 597,
+      "h30_mean_future_delta": 15.562814070351717,
+      "h30_positive_fraction": 0.48743718592964824,
       "h60_n": 596,
       "h60_mean_future_delta": 21.830033557047027,
       "h60_positive_fraction": 0.7399328859060402
@@ -93153,7 +93153,7 @@
       "future_outcome": {
         "5": 0.0,
         "15": 0.0,
-        "30": null,
+        "30": 0.0,
         "60": null
       }
     },
@@ -93219,6 +93219,20 @@
       "from_snapshot": "20260823T001717Z",
       "event_snapshot": "20260823T002218Z",
       "oi_delta": -62.0,
+      "vol_delta": null,
+      "future_outcome": {
+        "5": null,
+        "15": null,
+        "30": null,
+        "60": null
+      }
+    },
+    {
+      "series": "G4TQ6",
+      "strike": 4390.0,
+      "from_snapshot": "20260823T002724Z",
+      "event_snapshot": "20260823T003226Z",
+      "oi_delta": -4.0,
       "vol_delta": null,
       "future_outcome": {
         "5": null,
